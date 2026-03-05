@@ -1,4 +1,5 @@
 ---
+title: "The Signal in the Noise"
 pillar: insight-synthesis
 level: basic
 archetype-fit: [systems-thinker, translator]

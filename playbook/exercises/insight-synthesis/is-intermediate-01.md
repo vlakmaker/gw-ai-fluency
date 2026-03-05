@@ -1,4 +1,5 @@
 ---
+title: "The Multi-Source Brief"
 pillar: insight-synthesis
 level: intermediate
 archetype-fit: [systems-thinker, translator]

@@ -1,4 +1,5 @@
 ---
+title: "The Reusable Prompt"
 pillar: workflow-automation
 level: basic
 archetype-fit: [integrator, systems-thinker]

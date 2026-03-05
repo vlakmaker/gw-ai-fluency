@@ -1,9 +1,9 @@
 ---
-title: "🔴 Advanced Level"
+title: "Advanced Level"
 tags: [level, level/advanced]
 ---
 
-# 🔴 Advanced Level
+# Advanced Level
 
 ## What This Level Means
 

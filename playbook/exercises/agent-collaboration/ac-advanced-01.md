@@ -1,4 +1,5 @@
 ---
+title: "Design Your Agent Workflow"
 pillar: agent-collaboration
 level: advanced
 archetype-fit: [integrator, innovator]

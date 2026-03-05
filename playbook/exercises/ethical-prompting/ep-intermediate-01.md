@@ -1,4 +1,5 @@
 ---
+title: "The Verification Checklist"
 pillar: ethical-prompting
 level: intermediate
 archetype-fit: [translator, systems-thinker]

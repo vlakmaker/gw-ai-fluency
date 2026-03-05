@@ -1,4 +1,5 @@
 ---
+title: "The Framework Transplant"
 pillar: cross-domain-reframing
 level: intermediate
 archetype-fit: [connector, innovator]

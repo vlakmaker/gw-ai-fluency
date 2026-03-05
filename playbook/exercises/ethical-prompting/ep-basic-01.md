@@ -1,4 +1,5 @@
 ---
+title: "The Fact-Check Habit"
 pillar: ethical-prompting
 level: basic
 archetype-fit: [translator, systems-thinker]

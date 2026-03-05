@@ -1,4 +1,5 @@
 ---
+title: "The Prompt Chain"
 pillar: workflow-automation
 level: intermediate
 archetype-fit: [integrator, systems-thinker]

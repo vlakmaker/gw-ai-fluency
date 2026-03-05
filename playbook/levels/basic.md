@@ -1,9 +1,9 @@
 ---
-title: "🟢 Basic Level"
+title: "Basic Level"
 tags: [level, level/basic]
 ---
 
-# 🟢 Basic Level
+# Basic Level
 
 ## What This Level Means
 
@@ -19,4 +19,4 @@ You're building foundational AI fluency. At this level, you're getting comfortab
 
 ## Moving to Intermediate
 
-You're ready for 🟡 Intermediate when you can confidently use AI for single-step tasks and explain what the AI did well and where it fell short. See [[levels/intermediate|Intermediate Level]].
+You're ready for Intermediate when you can confidently use AI for single-step tasks and explain what the AI did well and where it fell short. See [[levels/intermediate|Intermediate Level]].

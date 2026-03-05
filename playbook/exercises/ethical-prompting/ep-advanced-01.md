@@ -1,4 +1,5 @@
 ---
+title: "The AI Governance Playbook"
 pillar: ethical-prompting
 level: advanced
 archetype-fit: [translator, systems-thinker]

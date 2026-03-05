@@ -1,4 +1,5 @@
 ---
+title: "The Cross-Domain Prompt Library"
 pillar: cross-domain-reframing
 level: advanced
 archetype-fit: [connector, innovator]

@@ -1,56 +1,45 @@
 ---
 title: AI Fluency Playbook
-description: An interactive learning platform that turns AI Fluency Quiz results into personalized development pathways.
+description: A hands-on resource that helps generalists build practical AI skills through exercises, frameworks, and personalized learning paths.
 tags: [index]
 ---
 
 # AI Fluency Playbook
 
-## Welcome
+**A practical guide to building AI skills — designed for generalists, by generalists.**
 
-Welcome to the AI Fluency Playbook — a hands-on resource built for the Generalist World community. Whether you've just taken the [AI Skills Quiz](https://aiskillsquiz.com) or you're exploring AI fluency on your own, this playbook gives you a structured path to grow.
+AI is changing how we work, but most resources assume you're a developer or data scientist. This playbook is different. It's built for people who work across domains, wear multiple hats, and want to use AI thoughtfully and effectively — without needing a technical background.
 
-## How to Use This Playbook
+Whether you're just getting started or looking to level up, there's something here for you.
 
-1. **Take the quiz** at [aiskillsquiz.com](https://aiskillsquiz.com) to discover your pillar scores and learning archetype
-2. **Find your path** — check the [[pathways/_index|Pathways]] section for a route matched to your profile
-3. **Pick an exercise** — each one is designed so you can start from your natural learning style
-4. **Level up** — follow the progression from 🟢 Basic → 🟡 Intermediate → 🔴 Advanced
+## Start Here
 
-## The Five Pillars
+- **[[getting-started|Getting Started]]** — What AI fluency means and why it matters
+- **[[how-to-use|How to Use This Playbook]]** — Three paths in, based on how you like to learn
 
-| Pillar | What It Covers |
-|--------|---------------|
-| [[pillars/insight-synthesis\|Insight Synthesis]] | Extracting meaning and patterns from AI-generated output |
-| [[pillars/workflow-automation\|Workflow Automation]] | Building repeatable AI-assisted processes |
-| [[pillars/cross-domain-reframing\|Cross-Domain Reframing]] | Applying AI thinking across different contexts |
-| [[pillars/agent-collaboration\|Agent Collaboration]] | Working effectively with AI agents and multi-agent systems |
-| [[pillars/ethical-prompting\|Ethical Prompting & Judgment]] | Responsible AI use, verification, and critical thinking |
+## Explore the Playbook
 
-## Levels
+| Section | What You'll Find |
+|---------|-----------------|
+| [[pillars/_index\|Pillars]] | The five core skill areas of AI fluency |
+| [[exercises/_index\|Exercises]] | 15 hands-on challenges, from 15-minute basics to deep dives |
+| [[levels/_index\|Levels]] | Basic, Intermediate, and Advanced progression |
+| [[archetypes/_index\|Archetypes]] | Discover your AI learning profile |
+| [[pathways/_index\|Pathways]] | Guided routes based on your strengths and gaps |
+| [[resources/_index\|Resources]] | Glossary, tools, and further reading |
 
-- [[levels/basic|🟢 Basic]] — Foundational skills and first interactions
-- [[levels/intermediate|🟡 Intermediate]] — Applied skills and workflow integration
-- [[levels/advanced|🔴 Advanced]] — Strategic use and system-level thinking
+## Take the Quiz
 
-## Find Your Path
+Not sure where to start? The [AI Skills Quiz](https://aiskillsquiz.com) takes a few minutes and gives you a personalized profile — including your archetype, pillar scores, and a recommended pathway.
 
-Check out the [[pathways/_index|Pathways]] section for guided routes based on common quiz result profiles.
+## Quick Start
 
-## Learning Style Guide
+Just want to try something? These three exercises are great first picks:
 
-Every exercise has multiple entry points — start where it feels natural:
+1. **[[exercises/ethical-prompting/ep-basic-01|The Fact-Check Habit]]** — Learn to catch AI mistakes (15 min)
+2. **[[exercises/insight-synthesis/is-basic-01|The Signal in the Noise]]** — Turn messy output into clear insight (15 min)
+3. **[[exercises/workflow-automation/wa-basic-01|The Reusable Prompt]]** — Build a prompt you'll actually reuse (15 min)
 
-- **🔧 Jump in** — For Tinkerers (42% of quiz takers). Hands-on challenge first, context second.
-- **📋 Plan first** — For Planners (25%). Structured preview before action.
-- **🧭 Why this matters** — For Strategists (23%). Big-picture context and career value.
-- **💬 Discuss** — For Social Learners (6%). Lightweight prompts in the Reflection section.
+---
 
-## Tagging Taxonomy
-
-This playbook uses a consistent tagging system:
-
-- **Pillars:** `#pillar/insight-synthesis`, `#pillar/workflow-automation`, `#pillar/cross-domain-reframing`, `#pillar/agent-collaboration`, `#pillar/ethical-prompting`
-- **Levels:** `#level/basic`, `#level/intermediate`, `#level/advanced`
-- **Archetypes:** `#archetype/connector`, `#archetype/innovator`, `#archetype/systems-thinker`, `#archetype/translator`, `#archetype/integrator`
-- **Types:** `#type/exercise`, `#type/pathway`, `#type/reflection`
+*This playbook is part of the [Generalist World](https://generalistworld.com) community. It's open, evolving, and built on the belief that AI fluency is a skill anyone can develop.*

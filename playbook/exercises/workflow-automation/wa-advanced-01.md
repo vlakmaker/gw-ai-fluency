@@ -1,4 +1,5 @@
 ---
+title: "The Workflow Blueprint"
 pillar: workflow-automation
 level: advanced
 archetype-fit: [integrator, systems-thinker]

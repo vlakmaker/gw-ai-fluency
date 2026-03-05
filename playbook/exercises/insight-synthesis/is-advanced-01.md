@@ -1,4 +1,5 @@
 ---
+title: "The Research Pipeline"
 pillar: insight-synthesis
 level: advanced
 archetype-fit: [systems-thinker, translator]

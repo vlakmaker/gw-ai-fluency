@@ -1,4 +1,5 @@
 ---
+title: "Your First AI Team Meeting"
 pillar: agent-collaboration
 level: basic
 archetype-fit: [integrator, innovator]

@@ -1,9 +1,9 @@
 ---
-title: "🟡 Intermediate Level"
+title: "Intermediate Level"
 tags: [level, level/intermediate]
 ---
 
-# 🟡 Intermediate Level
+# Intermediate Level
 
 ## What This Level Means
 
@@ -19,4 +19,4 @@ You're integrating AI into real workflows. At this level, you're chaining steps 
 
 ## Moving to Advanced
 
-You're ready for 🔴 Advanced when you can design multi-step AI workflows from scratch and critically evaluate AI output without prompting. See [[levels/advanced|Advanced Level]].
+You're ready for Advanced when you can design multi-step AI workflows from scratch and critically evaluate AI output without prompting. See [[levels/advanced|Advanced Level]].

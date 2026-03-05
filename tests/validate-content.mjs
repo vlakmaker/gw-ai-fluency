@@ -46,7 +46,7 @@ function collectExerciseFiles(dir) {
     const full = path.join(dir, entry.name);
     if (entry.isDirectory()) {
       files.push(...collectExerciseFiles(full));
-    } else if (entry.name.endsWith(".md")) {
+    } else if (entry.name.endsWith(".md") && entry.name !== "_index.md") {
       files.push(full);
     }
   }

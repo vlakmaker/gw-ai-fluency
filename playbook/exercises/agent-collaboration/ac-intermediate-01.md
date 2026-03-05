@@ -1,4 +1,5 @@
 ---
+title: "The Handoff Protocol"
 pillar: agent-collaboration
 level: intermediate
 archetype-fit: [integrator, innovator]
