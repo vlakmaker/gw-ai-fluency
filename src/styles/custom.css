@@ -3,29 +3,35 @@
 /* Primary: #5c0098 (deep purple), Secondary: #e0b1ff (lavender) */
 /* Accent: #ffee32 (yellow), Text: #02061d (dark navy), BG: #ffffff (white) */
 
+/*
+ * IMPORTANT: Starlight color token semantics:
+ *   --sl-color-white  = highest contrast FOREGROUND (headings, bold text)
+ *   --sl-color-black  = deepest BACKGROUND (page bg)
+ *   --sl-color-gray-1 = near-white foreground (dark mode) / near-black (light mode)
+ *   --sl-color-gray-6 = surface bg (sidebar, nav)
+ *   The gray scale FLIPS between modes. :root = dark mode defaults.
+ */
+
 /* Import Work Sans from Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap');
 
-/* ── Light mode (default — matches GW brand) ─────────────────────── */
+/* ── Dark mode (default — :root is dark in Starlight) ─────────────── */
 :root {
-	/* Accent colors (purple) */
-	--sl-color-accent-low: #f3e8ff;
-	--sl-color-accent: #5c0098;
-	--sl-color-accent-high: #3a0060;
+	/* Accent colors */
+	--sl-color-accent-low: #2a1045;
+	--sl-color-accent: #c9a0e8;
+	--sl-color-accent-high: #f3e8ff;
 
-	/* Page colors — clean white background, dark navy text */
-	--sl-color-white: #ffffff;
-	--sl-color-gray-1: #f3f0f5;
-	--sl-color-gray-2: #d8d0e0;
-	--sl-color-gray-3: #8b7a99;
-	--sl-color-gray-4: #544960;
-	--sl-color-gray-5: #302838;
-	--sl-color-gray-6: #1a1520;
-	--sl-color-black: #02061d;
-
-	/* Text colors — explicit for readability */
-	--sl-color-text: #02061d;
-	--sl-color-text-accent: #5c0098;
+	/* white = foreground (light), black = background (dark) */
+	/* gray-1 (lightest fg) → gray-6 (darkest surface bg) */
+	--sl-color-white: #f8f5fc;
+	--sl-color-gray-1: #ece6f2;
+	--sl-color-gray-2: #d0c4dc;
+	--sl-color-gray-3: #a898b8;
+	--sl-color-gray-4: #7a6a8e;
+	--sl-color-gray-5: #352848;
+	--sl-color-gray-6: #231830;
+	--sl-color-black: #110e18;
 
 	/* Typography */
 	--sl-font: 'Work Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
@@ -35,80 +41,67 @@
 	--gw-yellow: #ffee32;
 	--gw-yellow-light: #fff583;
 	--gw-lavender: #e0b1ff;
-	--gw-pale-lavender: #f9efff;
+	--gw-pale-lavender: #2a1045;
 }
 
-/* ── Dark mode ────────────────────────────────────────────────────── */
-:root[data-theme='dark'] {
-	--sl-color-accent-low: #2a1045;
-	--sl-color-accent: #c9a0e8;
-	--sl-color-accent-high: #f3e8ff;
+/* ── Light mode ───────────────────────────────────────────────────── */
+:root[data-theme='light'] {
+	/* Accent colors — deeper for light backgrounds */
+	--sl-color-accent-low: #f3e8ff;
+	--sl-color-accent: #5c0098;
+	--sl-color-accent-high: #3a0060;
 
-	--sl-color-white: #1a1028;
-	--sl-color-gray-1: #231830;
-	--sl-color-gray-2: #352848;
-	--sl-color-gray-3: #7a6a8e;
-	--sl-color-gray-4: #a898b8;
-	--sl-color-gray-5: #d0c4dc;
-	--sl-color-gray-6: #ece6f2;
-	--sl-color-black: #f8f5fc;
+	/* white = foreground (dark), black = background (light) */
+	/* gray-1 (darkest fg) → gray-6 (lightest surface bg) */
+	--sl-color-white: #02061d;
+	--sl-color-gray-1: #1a1520;
+	--sl-color-gray-2: #302838;
+	--sl-color-gray-3: #544960;
+	--sl-color-gray-4: #8b7a99;
+	--sl-color-gray-5: #d8d0e0;
+	--sl-color-gray-6: #f3f0f5;
+	--sl-color-black: #ffffff;
 
-	--sl-color-text: #ece6f2;
-	--sl-color-text-accent: #c9a0e8;
+	--gw-pale-lavender: #f9efff;
 }
 
 /* ── Header ───────────────────────────────────────────────────────── */
 
-/* Give the header a solid branded background */
 header.header {
 	background-color: #5c0098;
 	border-bottom: none;
 }
 
-/* Header text and icons: white on purple */
-.site-title span {
+:root[data-theme='light'] header.header {
+	background-color: #5c0098;
+}
+
+/* All header elements: white on purple */
+.site-title span,
+header.header a,
+header.header button,
+header.header starlight-theme-select label,
+header.header .social-icons a {
 	color: #ffffff;
 	font-weight: 700;
 }
 
-header.header a,
-header.header button {
-	color: #ffffff;
-}
-
 header.header a:hover,
-header.header button:hover {
-	color: var(--gw-lavender);
-}
-
-/* Search button in header */
-header.header .astro-v37mnknz {
-	color: #ffffff;
-}
-
-/* Theme selector in header */
-header.header starlight-theme-select label {
-	color: #ffffff;
-}
-
-/* Social icons in header */
-header.header .social-icons a {
-	color: #ffffff;
-}
-
+header.header button:hover,
 header.header .social-icons a:hover {
 	color: var(--gw-lavender);
 }
 
-/* Search kbd hint styling */
 header.header kbd {
 	border-color: rgba(255, 255, 255, 0.3);
 	color: rgba(255, 255, 255, 0.8);
 }
 
-/* Dark mode header — slightly lighter purple */
-:root[data-theme='dark'] header.header {
-	background-color: #3a0060;
+/* Mobile header menu button */
+@media (max-width: 49.99em) {
+	starlight-menu-button button {
+		color: #ffffff;
+	}
 }
 
 /* ── Sidebar ──────────────────────────────────────────────────────── */
@@ -117,15 +110,17 @@ header.header kbd {
 	font-size: 0.9rem;
 }
 
-/* Active sidebar link gets a lavender accent */
-nav.sidebar a[aria-current='page'] {
-	background-color: var(--gw-pale-lavender);
-	color: var(--sl-color-accent);
+/* Active sidebar link */
+:root[data-theme='light'] nav.sidebar a[aria-current='page'] {
+	background-color: #f3e8ff;
+	color: #5c0098;
 	font-weight: 600;
 }
 
-:root[data-theme='dark'] nav.sidebar a[aria-current='page'] {
-	background-color: var(--sl-color-accent-low);
+nav.sidebar a[aria-current='page'] {
+	background-color: #2a1045;
+	color: #c9a0e8;
+	font-weight: 600;
 }
 
 /* ── Typography ───────────────────────────────────────────────────── */
@@ -135,11 +130,7 @@ h1 {
 	color: var(--sl-color-accent);
 }
 
-h2 {
-	font-weight: 600;
-}
-
-h3 {
+h2, h3 {
 	font-weight: 600;
 }
 
@@ -165,11 +156,6 @@ h3 {
 
 .sl-markdown-content th {
 	font-weight: 600;
-	background-color: var(--gw-pale-lavender);
-	color: var(--sl-color-accent-high);
-}
-
-:root[data-theme='dark'] .sl-markdown-content th {
 	background-color: var(--sl-color-accent-low);
 	color: var(--sl-color-accent-high);
 }
@@ -183,14 +169,10 @@ h3 {
 
 .sl-markdown-content blockquote {
 	border-left: 3px solid var(--sl-color-accent);
-	background-color: var(--gw-pale-lavender);
+	background-color: var(--sl-color-accent-low);
 	padding: 0.75rem 1rem;
 	margin-left: 0;
 	border-radius: 0 8px 8px 0;
-}
-
-:root[data-theme='dark'] .sl-markdown-content blockquote {
-	background-color: var(--sl-color-accent-low);
 }
 
 /* ── Code blocks ──────────────────────────────────────────────────── */
@@ -201,27 +183,14 @@ h3 {
 
 /* Inline code */
 .sl-markdown-content :not(pre) > code {
-	background-color: var(--gw-pale-lavender);
+	background-color: var(--sl-color-accent-low);
 	padding: 0.15em 0.35em;
 	border-radius: 4px;
 	font-size: 0.9em;
 }
 
-:root[data-theme='dark'] .sl-markdown-content :not(pre) > code {
-	background-color: var(--sl-color-accent-low);
-}
-
-/* ── Hero / landing page polish ───────────────────────────────────── */
+/* ── Site title ───────────────────────────────────────────────────── */
 
 .site-title {
 	font-weight: 700;
-}
-
-/* ── Responsive polish ────────────────────────────────────────────── */
-
-/* Mobile header menu button */
-@media (max-width: 49.99em) {
-	starlight-menu-button button {
-		color: #ffffff;
-	}
 }
