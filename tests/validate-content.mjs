@@ -12,8 +12,8 @@ import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
 
-const PLAYBOOK_DIR = path.resolve("playbook");
-const EXERCISES_DIR = path.join(PLAYBOOK_DIR, "exercises");
+const CONTENT_DIR = path.resolve("src/content/docs");
+const EXERCISES_DIR = path.join(CONTENT_DIR, "exercises");
 
 const VALID_PILLARS = [
   "agent-collaboration",
@@ -46,7 +46,7 @@ function collectExerciseFiles(dir) {
     const full = path.join(dir, entry.name);
     if (entry.isDirectory()) {
       files.push(...collectExerciseFiles(full));
-    } else if (entry.name.endsWith(".md") && entry.name !== "_index.md") {
+    } else if (entry.name.endsWith(".md") && entry.name !== "index.md") {
       files.push(full);
     }
   }

@@ -8,7 +8,7 @@ on:
 
 jobs:
   test:
-    name: Content Validation
+    name: Validate & Build
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -20,31 +20,19 @@ jobs:
 
       - run: npm ci
 
-      - run: npm test
+      - name: Run tests
+        run: npm test
+
+      - name: Verify Astro build
+        run: npm run build
 
   deploy:
-    name: Build & Deploy
+    name: Deploy to CX32
     needs: test
     runs-on: ubuntu-latest
     if: github.ref == 'refs/heads/master' && github.event_name == 'push'
     steps:
-      - uses: actions/checkout@v4
-
-      - uses: actions/setup-node@v4
-        with:
-          node-version: 22
-
-      - name: Build site with Quartz
-        run: |
-          git clone --depth 1 https://github.com/jackyzha0/quartz.git quartz-build
-          cd quartz-build
-          npm ci
-          cp ../quartz.config.ts quartz.config.ts
-          cp ../quartz.layout.ts quartz.layout.ts
-          cp -r ../playbook/* content/
-          npx quartz build
-
-      - name: Deploy to CX32
+      - name: Deploy via SSH
         uses: appleboy/ssh-action@v1
         with:
           host: ${{ secrets.CX32_HOST }}

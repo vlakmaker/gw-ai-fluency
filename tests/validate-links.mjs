@@ -1,20 +1,21 @@
 /**
- * Internal wiki-link checker for the AI Fluency Playbook.
+ * Internal link checker for the AI Fluency Playbook (Astro/Starlight).
  *
- * Scans all markdown files under playbook/ and verifies that every
- * [[wiki-link]] resolves to an existing file.
+ * Scans all markdown files under src/content/docs/ and verifies that every
+ * internal markdown link resolves to an existing file.
  *
  * Supports:
- *   [[path]]
- *   [[path|display text]]
- *   [[path#heading]]
- *   [[path#heading|display text]]
+ *   [text](relative/path/)
+ *   [text](../relative/path/)
+ *   [text](/absolute/path/)
+ *
+ * Skips external links (http://, https://, mailto:, etc.)
  */
 
 import fs from "fs";
 import path from "path";
 
-const PLAYBOOK_DIR = path.resolve("playbook");
+const CONTENT_DIR = path.resolve("src/content/docs");
 
 let errors = [];
 
@@ -38,78 +39,106 @@ function relPath(file) {
 }
 
 /**
- * Build a set of all resolvable paths (without .md extension)
- * relative to the playbook directory.
+ * Build a set of all resolvable URL paths that Astro/Starlight will generate.
+ * For example, src/content/docs/pillars/index.md -> "pillars"
+ *              src/content/docs/pillars/ethical-prompting.md -> "pillars/ethical-prompting"
  */
-function buildFileIndex(files) {
+function buildRouteIndex(files) {
   const index = new Set();
   for (const file of files) {
-    // Add relative path from playbook dir, without .md
-    const rel = path.relative(PLAYBOOK_DIR, file).replace(/\.md$/, "");
+    let rel = path.relative(CONTENT_DIR, file).replace(/\.md$/, "");
+    // index files map to their directory
+    if (rel.endsWith("/index")) {
+      rel = rel.replace(/\/index$/, "");
+    } else if (rel === "index") {
+      rel = "";
+    }
     index.add(rel);
-
-    // Also add just the filename without extension (Obsidian resolves by name)
-    const basename = path.basename(file, ".md");
-    index.add(basename);
   }
   return index;
 }
 
 /**
- * Extract all wiki-links from a markdown string.
- * Returns an array of { target, raw } objects.
+ * Extract all internal markdown links from content.
+ * Returns an array of { href, raw } objects.
  */
-function extractWikiLinks(content) {
-  const regex = /\[\[([^\]]+)\]\]/g;
+function extractMarkdownLinks(content) {
+  // Match [text](href) but not ![image](src)
+  const regex = /(?<!!)\[([^\]]*)\]\(([^)]+)\)/g;
   const links = [];
   let match;
   while ((match = regex.exec(content)) !== null) {
-    const raw = match[1];
-    // Strip display text (after | or \|) and heading anchor (after #)
-    // Obsidian uses \| inside table cells to escape the pipe
-    const target = raw.split(/\\?\|/)[0].split("#")[0].trim();
-    if (target) {
-      links.push({ target, raw });
+    const href = match[2].trim();
+    // Skip external links, anchors-only, and mailto
+    if (href.startsWith("http://") || href.startsWith("https://") ||
+        href.startsWith("mailto:") || href.startsWith("#")) {
+      continue;
     }
+    links.push({ href, raw: match[0] });
   }
   return links;
+}
+
+/**
+ * Resolve an internal link href relative to the file it appears in.
+ * Returns the normalized route path to look up in the index.
+ */
+function resolveLink(href, file, routeIndex) {
+  // Strip anchor
+  const cleanHref = href.split("#")[0];
+  if (!cleanHref) return true; // anchor-only link
+
+  // Strip trailing slash
+  const trimmed = cleanHref.replace(/\/$/, "") || "";
+
+  if (trimmed === "") {
+    // Root link "/" -> maps to index route ""
+    return routeIndex.has("");
+  }
+
+  if (trimmed.startsWith("/")) {
+    // Absolute path from site root — Starlight routes start from content root
+    const route = trimmed.replace(/^\//, "");
+    return routeIndex.has(route);
+  }
+
+  // Relative path — resolve from the file's directory
+  const fileRoute = path.relative(CONTENT_DIR, file).replace(/\.md$/, "");
+  const fileDir = path.dirname(fileRoute);
+  const resolved = path.normalize(path.join(fileDir, trimmed));
+  return routeIndex.has(resolved);
 }
 
 // ── Main ────────────────────────────────────────────────────────────
 
 function main() {
-  console.log("Validating internal wiki-links...\n");
+  console.log("Validating internal markdown links...\n");
 
-  if (!fs.existsSync(PLAYBOOK_DIR)) {
-    console.error(`ERROR: playbook directory not found at ${PLAYBOOK_DIR}`);
+  if (!fs.existsSync(CONTENT_DIR)) {
+    console.error(`ERROR: content directory not found at ${CONTENT_DIR}`);
     process.exit(1);
   }
 
-  const allFiles = collectMarkdownFiles(PLAYBOOK_DIR);
-  const fileIndex = buildFileIndex(allFiles);
+  const allFiles = collectMarkdownFiles(CONTENT_DIR);
+  const routeIndex = buildRouteIndex(allFiles);
   let totalLinks = 0;
 
-  console.log(`Indexed ${allFiles.length} markdown files.`);
+  console.log(`Indexed ${allFiles.length} markdown files (${routeIndex.size} routes).`);
 
   for (const file of allFiles) {
     const content = fs.readFileSync(file, "utf-8");
-    const links = extractWikiLinks(content);
+    const links = extractMarkdownLinks(content);
 
-    for (const { target, raw } of links) {
+    for (const { href, raw } of links) {
       totalLinks++;
 
-      // Try resolving: as-is, relative to file's directory, relative to playbook root
-      const resolved =
-        fileIndex.has(target) ||
-        fileIndex.has(path.join(path.relative(PLAYBOOK_DIR, path.dirname(file)), target));
-
-      if (!resolved) {
-        errors.push(`${relPath(file)}: broken link [[${raw}]] — target "${target}" not found`);
+      if (!resolveLink(href, file, routeIndex)) {
+        errors.push(`${relPath(file)}: broken link ${raw} — target "${href}" not found`);
       }
     }
   }
 
-  console.log(`Checked ${totalLinks} wiki-links.\n`);
+  console.log(`Checked ${totalLinks} internal links.\n`);
 
   if (errors.length > 0) {
     console.log(`✗  ${errors.length} broken link(s):`);
@@ -120,7 +149,7 @@ function main() {
     process.exit(1);
   }
 
-  console.log(`✓  All ${totalLinks} wiki-links resolve correctly.`);
+  console.log(`✓  All ${totalLinks} internal links resolve correctly.`);
 }
 
 main();

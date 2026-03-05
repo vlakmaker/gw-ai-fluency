@@ -2,10 +2,20 @@
   "name": "gw-ai-fluency",
   "version": "1.0.0",
   "private": true,
-  "description": "AI Fluency Playbook — content validation and build tools",
+  "description": "AI Fluency Playbook — Astro + Starlight site for Generalist World",
   "type": "module",
   "scripts": {
-    "test": "node tests/validate-content.mjs && node tests/validate-links.mjs"
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "test": "node tests/validate-content.mjs && node tests/validate-links.mjs",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/starlight": "^0.37.6",
+    "astro": "^5.6.1",
+    "sharp": "^0.34.2"
   },
   "devDependencies": {
     "gray-matter": "^4.0.3"
