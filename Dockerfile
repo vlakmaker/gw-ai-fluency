@@ -1,5 +1,5 @@
 # Stage 1: Build the static site with Quartz v4
-FROM node:20-alpine AS builder
+FROM node:22-alpine AS builder
 
 WORKDIR /build
 
