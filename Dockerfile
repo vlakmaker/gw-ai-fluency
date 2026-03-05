@@ -18,7 +18,9 @@ COPY quartz.layout.ts quartz.layout.ts
 COPY playbook/ content/
 
 # Build static site
-RUN npx quartz build
+# Use node directly instead of npx to avoid BusyBox incompatibility
+# with #!/usr/bin/env -S shebang in Quartz CLI
+RUN node --no-deprecation quartz/bootstrap-cli.mjs build
 
 # Stage 2: Serve with Nginx
 FROM nginx:alpine
