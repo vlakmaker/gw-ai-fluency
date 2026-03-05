@@ -5,6 +5,9 @@ dist/
 # Dependencies
 node_modules/
 
+# CLI tooling
+.opencode/
+
 # Obsidian
 .obsidian/workspace.json
 .obsidian/workspace-mobile.json
