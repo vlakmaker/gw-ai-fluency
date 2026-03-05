@@ -22,7 +22,7 @@ No prep needed. Just you and an AI tool of your choice.
 
 If you've taken the quiz at [aiskillsquiz.com](https://aiskillsquiz.com), you already know your pillar scores and archetype. Here's your next step:
 
-1. **Find your archetype** in the [[archetypes/_index|Archetypes]] section to understand your natural strengths
+1. **Find your archetype** in the [[archetypes/_index|Archetypes]] section to understand your learning style
 2. **Check the [[pathways/_index|Pathways]]** for a guided route matched to your profile
 3. **Start with your lowest-scoring pillar** — that's where you'll see the most growth
 
@@ -41,7 +41,7 @@ Pillars (5 skill areas)
   -> Levels (Basic, Intermediate, Advanced)
     -> Exercises (hands-on practice)
 
-Archetypes (your learning profile)
+Archetypes (your learning style)
   -> Pathways (guided routes based on your strengths and gaps)
 
 Resources (glossary, tools, further reading)
@@ -63,10 +63,10 @@ There's no deadline. This isn't a course you need to finish — it's a resource 
 
 Every exercise offers multiple ways in:
 
-- **Jump in** — For hands-on learners. Start doing, then understand why.
-- **Plan first** — For structured thinkers. Read the overview, then execute step by step.
-- **Why this matters** — For big-picture thinkers. Understand the strategic value before starting.
-- **Discuss** — For social learners. Use the reflection prompts with a colleague or community.
+- **Jump in** — For [[archetypes/tinkerer|Tinkerers]]. Start doing, then understand why.
+- **Plan first** — For [[archetypes/planner|Planners]]. Read the overview, then execute step by step.
+- **Why this matters** — For [[archetypes/strategist|Strategists]]. Understand the strategic value before starting.
+- **Discuss** — For [[archetypes/social-learner|Social Learners]]. Use the reflection prompts with a colleague or community.
 
 You don't have to pick just one — but knowing your preference can help you get started faster.
 

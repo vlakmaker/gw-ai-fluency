@@ -24,7 +24,7 @@ Agent Collaboration Q1 (brainstorming): Majority chat with GPT alone — multi-a
 ✅ Five fluency pillars defined (Insight Synthesis, Workflow Automation, Cross-Domain Reframing, Agent Collaboration, Ethical Prompting & Judgment)
 ✅ Three-level progression model (🟢 Basic → 🟡 Intermediate → 🔴 Advanced)
 ✅ Modular toolkit with concrete examples per pillar × level
-✅ Archetype system (source + operating archetypes, shadow archetypes)
+✅ Archetype system (4 learning style archetypes: Tinkerer, Planner, Strategist, Social Learner)
 ✅ Project summary and vision document
 ✅ CX32 server available for hosting
 🔲 Playbook content (drafted but incomplete)
@@ -63,15 +63,10 @@ Goal: Design the Obsidian vault so the information architecture works before wri
 │   └── /ethical-prompting
 │       └── ...
 ├── /archetypes
-│   ├── connector.md
-│   ├── innovator.md
-│   ├── systems-thinker.md
-│   ├── translator.md
-│   ├── integrator.md
-│   └── /shadows                      # Shadow archetypes (misuse patterns)
-│       ├── the-automator.md
-│       ├── the-parrot.md
-│       └── ...
+│   ├── tinkerer.md
+│   ├── planner.md
+│   ├── strategist.md
+│   └── social-learner.md
 ├── /pathways                         # Personalized routes based on quiz results
 │   ├── high-synthesis-low-agent.md
 │   ├── high-automation-low-ethics.md
@@ -90,7 +85,7 @@ Each pillar page links to its exercises (by level) and relevant archetypes
 Each exercise links back to its pillar, tags its level, and cross-links to related exercises in other pillars where relevant
 Each archetype links to the pillars and exercises most aligned with it
 Each pathway links to a curated sequence of exercises based on a quiz result profile
-Tags to use: #pillar/insight-synthesis, #level/basic, #archetype/connector, #type/exercise, #type/reflection
+Tags to use: #pillar/insight-synthesis, #level/basic, #archetype/tinkerer, #type/exercise, #type/reflection
 
 1.3 Define exercise format (learning-style-aware template)
 Quiz data shows 42% Tinkerers, 25% Planners, 23% Strategists, 6% Social Learners. The template is designed so each learning style has a natural entry point without creating variant exercises.
@@ -98,7 +93,7 @@ Every exercise should follow this structure:
 markdown---
 pillar: insight-synthesis
 level: basic
-archetype-fit: [systems-thinker, translator]
+archetype-fit: [strategist, planner]
 time-estimate: 15min
 tags: [exercise, insight-synthesis, basic]
 ---
@@ -167,7 +162,7 @@ Each pillar page needs:
 
 Definition and why it matters for generalists
 The three levels explained with progression logic (what changes between levels)
-Archetype alignment (which archetypes naturally excel here, which struggle)
+Learning style fit (which archetypes naturally align with this pillar)
 Links to all exercises for this pillar
 
 2.2 First exercise pass: MVP set (15 exercises)
@@ -180,13 +175,12 @@ Quiz insight to bake into content:
 The middle-cluster pillars (IS/WA/CDR) are close enough in score that users won't strongly self-sort — the pathway pages need to help them prioritize
 Agent Collaboration at 51% likely has a bimodal distribution (some people at basic, some at intermediate) — the basic exercise needs to be genuinely accessible, not "use CrewAI"
 
-2.3 Archetype pages (5 operating archetypes + shadows)
+2.3 Archetype pages (4 learning style archetypes)
 Each archetype page needs:
 
-Description and behavioral patterns
-Strengths and blind spots with AI
-Which pillars this archetype tends to be strong/weak in
-Shadow version: what overuse or misuse looks like
+Description of learning style and approach
+Strengths and growth areas
+Recommended exercises and entry points
 Recommended pathway
 
 2.4 Pathway pages (top 5 common profiles)
@@ -201,7 +195,7 @@ What "leveling up" looks like
 
  5 pillar pages written
  15 exercises (5 per level) written and interlinked
- 5+ archetype pages with shadow variants
+ 4 archetype pages (Tinkerer, Planner, Strategist, Social Learner)
  3–5 pathway pages based on real quiz data patterns
  All internal links working
  Resource/glossary pages populated

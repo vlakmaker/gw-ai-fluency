@@ -13,6 +13,7 @@ RUN npm ci
 # Copy project config files (override Quartz defaults)
 COPY quartz.config.ts quartz.config.ts
 COPY quartz.layout.ts quartz.layout.ts
+COPY custom.scss quartz/styles/custom.scss
 
 # Copy vault content into Quartz content directory
 COPY playbook/ content/

@@ -2,7 +2,7 @@
 title: "Your First AI Team Meeting"
 pillar: agent-collaboration
 level: basic
-archetype-fit: [integrator, innovator]
+archetype-fit: [tinkerer, social-learner]
 time-estimate: 15min
 tags: [exercise, pillar/agent-collaboration, level/basic, type/exercise]
 ---

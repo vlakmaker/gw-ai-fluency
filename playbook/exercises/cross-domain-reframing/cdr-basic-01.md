@@ -2,7 +2,7 @@
 title: "The Stolen Technique"
 pillar: cross-domain-reframing
 level: basic
-archetype-fit: [connector, innovator]
+archetype-fit: [tinkerer, social-learner]
 time-estimate: 15min
 tags: [exercise, pillar/cross-domain-reframing, level/basic, type/exercise]
 ---

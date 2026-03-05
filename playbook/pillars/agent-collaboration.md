@@ -25,10 +25,10 @@ Coordinating multiple AI tools or agents for a single project. Designing agent r
 
 Architecting multi-agent workflows, evaluating agent frameworks, and building custom agent-based solutions.
 
-## Archetype Alignment
+## Learning Style Fit
 
-- **Naturally strong:** [[archetypes/integrator|Integrator]], [[archetypes/innovator|Innovator]]
-- **Growth opportunity:** [[archetypes/translator|Translator]], [[archetypes/connector|Connector]]
+- **Natural fit:** [[archetypes/tinkerer|Tinkerers]] and [[archetypes/social-learner|Social Learners]] — hands-on experimentation and collaborative instincts shine here
+- **Growth opportunity:** [[archetypes/planner|Planners]] — designing agent roles and handoffs rewards structured thinking
 
 ## Exercises
 

@@ -2,7 +2,7 @@
 title: "The Handoff Protocol"
 pillar: agent-collaboration
 level: intermediate
-archetype-fit: [integrator, innovator]
+archetype-fit: [tinkerer, social-learner]
 time-estimate: 25min
 tags: [exercise, pillar/agent-collaboration, level/intermediate, type/exercise]
 ---

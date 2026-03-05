@@ -25,10 +25,10 @@ Chaining multiple AI steps together, building reusable prompt sequences, and int
 
 Designing end-to-end automated workflows, building custom tools, and optimizing for reliability and edge cases.
 
-## Archetype Alignment
+## Learning Style Fit
 
-- **Naturally strong:** [[archetypes/integrator|Integrator]], [[archetypes/systems-thinker|Systems Thinker]]
-- **Growth opportunity:** [[archetypes/translator|Translator]], [[archetypes/connector|Connector]]
+- **Natural fit:** [[archetypes/tinkerer|Tinkerers]] and [[archetypes/planner|Planners]] — building processes rewards both experimentation and structure
+- **Growth opportunity:** [[archetypes/strategist|Strategists]] — getting hands-on with automation turns strategic thinking into concrete results
 
 ## Exercises
 

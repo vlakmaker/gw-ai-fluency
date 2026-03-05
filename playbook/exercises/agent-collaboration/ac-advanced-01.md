@@ -2,7 +2,7 @@
 title: "Design Your Agent Workflow"
 pillar: agent-collaboration
 level: advanced
-archetype-fit: [integrator, innovator]
+archetype-fit: [tinkerer, social-learner]
 time-estimate: 40min
 tags: [exercise, pillar/agent-collaboration, level/advanced, type/exercise]
 ---

@@ -2,7 +2,7 @@
 title: "The Framework Transplant"
 pillar: cross-domain-reframing
 level: intermediate
-archetype-fit: [connector, innovator]
+archetype-fit: [tinkerer, social-learner]
 time-estimate: 25min
 tags: [exercise, pillar/cross-domain-reframing, level/intermediate, type/exercise]
 ---

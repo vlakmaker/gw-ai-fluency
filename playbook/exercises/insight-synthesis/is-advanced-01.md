@@ -2,7 +2,7 @@
 title: "The Research Pipeline"
 pillar: insight-synthesis
 level: advanced
-archetype-fit: [systems-thinker, translator]
+archetype-fit: [strategist, planner]
 time-estimate: 40min
 tags: [exercise, pillar/insight-synthesis, level/advanced, type/exercise]
 ---

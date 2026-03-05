@@ -2,7 +2,7 @@
 title: "The Multi-Source Brief"
 pillar: insight-synthesis
 level: intermediate
-archetype-fit: [systems-thinker, translator]
+archetype-fit: [strategist, planner]
 time-estimate: 25min
 tags: [exercise, pillar/insight-synthesis, level/intermediate, type/exercise]
 ---

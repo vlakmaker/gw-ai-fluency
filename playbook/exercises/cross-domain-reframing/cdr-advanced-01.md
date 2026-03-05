@@ -2,7 +2,7 @@
 title: "The Cross-Domain Prompt Library"
 pillar: cross-domain-reframing
 level: advanced
-archetype-fit: [connector, innovator]
+archetype-fit: [tinkerer, social-learner]
 time-estimate: 40min
 tags: [exercise, pillar/cross-domain-reframing, level/advanced, type/exercise]
 ---

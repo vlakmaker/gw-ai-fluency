@@ -25,10 +25,10 @@ Deliberately translating prompts, frameworks, and workflows across domains. Buil
 
 Creating novel approaches by combining insights from multiple domains. Teaching cross-domain thinking to teams and organizations.
 
-## Archetype Alignment
+## Learning Style Fit
 
-- **Naturally strong:** [[archetypes/connector|Connector]], [[archetypes/innovator|Innovator]]
-- **Growth opportunity:** [[archetypes/integrator|Integrator]], [[archetypes/systems-thinker|Systems Thinker]]
+- **Natural fit:** [[archetypes/tinkerer|Tinkerers]] and [[archetypes/social-learner|Social Learners]] — experimenting across domains and cross-pollinating through dialogue
+- **Growth opportunity:** [[archetypes/planner|Planners]] — borrowing techniques from unfamiliar fields stretches structured thinking
 
 ## Exercises
 

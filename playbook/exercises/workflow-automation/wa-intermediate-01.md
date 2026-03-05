@@ -2,7 +2,7 @@
 title: "The Prompt Chain"
 pillar: workflow-automation
 level: intermediate
-archetype-fit: [integrator, systems-thinker]
+archetype-fit: [tinkerer, planner]
 time-estimate: 25min
 tags: [exercise, pillar/workflow-automation, level/intermediate, type/exercise]
 ---

@@ -25,10 +25,10 @@ Combining multiple AI outputs, cross-referencing with domain knowledge, and buil
 
 Designing synthesis workflows, creating frameworks for recurring analysis tasks, and teaching others to extract insight.
 
-## Archetype Alignment
+## Learning Style Fit
 
-- **Naturally strong:** [[archetypes/systems-thinker|Systems Thinker]], [[archetypes/translator|Translator]]
-- **Growth opportunity:** [[archetypes/connector|Connector]], [[archetypes/innovator|Innovator]]
+- **Natural fit:** [[archetypes/strategist|Strategists]] and [[archetypes/planner|Planners]] — extracting meaning rewards analytical and systematic thinking
+- **Growth opportunity:** [[archetypes/social-learner|Social Learners]] — discussing AI output with others deepens synthesis skills
 
 ## Exercises
 

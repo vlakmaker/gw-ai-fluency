@@ -2,7 +2,7 @@
 title: "The Fact-Check Habit"
 pillar: ethical-prompting
 level: basic
-archetype-fit: [translator, systems-thinker]
+archetype-fit: [planner, strategist]
 time-estimate: 15min
 tags: [exercise, pillar/ethical-prompting, level/basic, type/exercise]
 ---

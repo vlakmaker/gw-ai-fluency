@@ -28,7 +28,7 @@ You don't need any technical background. If you can have a conversation with Cha
 - **15 hands-on exercises** you can do in 15-40 minutes, no setup required
 - **Five skill pillars** that break AI fluency into concrete, buildable areas
 - **Three difficulty levels** so you can start where you are and grow from there
-- **Archetypes and pathways** that personalize your learning based on your strengths
+- **Learning style archetypes and pathways** that personalize your journey based on how you learn best
 - **Resources** including a glossary, tool recommendations, and further reading
 
 ## What This Playbook Is Not

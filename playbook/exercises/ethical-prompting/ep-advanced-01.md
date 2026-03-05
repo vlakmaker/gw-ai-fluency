@@ -2,7 +2,7 @@
 title: "The AI Governance Playbook"
 pillar: ethical-prompting
 level: advanced
-archetype-fit: [translator, systems-thinker]
+archetype-fit: [planner, strategist]
 time-estimate: 40min
 tags: [exercise, pillar/ethical-prompting, level/advanced, type/exercise]
 ---

@@ -2,7 +2,7 @@
 title: "The Workflow Blueprint"
 pillar: workflow-automation
 level: advanced
-archetype-fit: [integrator, systems-thinker]
+archetype-fit: [tinkerer, planner]
 time-estimate: 40min
 tags: [exercise, pillar/workflow-automation, level/advanced, type/exercise]
 ---

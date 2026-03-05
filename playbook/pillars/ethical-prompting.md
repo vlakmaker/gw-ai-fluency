@@ -25,10 +25,10 @@ Building verification workflows, designing prompts that reduce bias and hallucin
 
 Establishing organizational AI ethics guidelines, auditing AI workflows for systemic bias, and teaching ethical AI use to others.
 
-## Archetype Alignment
+## Learning Style Fit
 
-- **Naturally strong:** [[archetypes/translator|Translator]], [[archetypes/systems-thinker|Systems Thinker]]
-- **Growth opportunity:** [[archetypes/innovator|Innovator]], [[archetypes/integrator|Integrator]]
+- **Natural fit:** [[archetypes/planner|Planners]] and [[archetypes/strategist|Strategists]] — verification rewards structured thinking and big-picture judgment
+- **Growth opportunity:** [[archetypes/tinkerer|Tinkerers]] — slowing down to verify builds a critical habit
 
 ## Exercises
 

@@ -2,7 +2,7 @@
 title: "The Verification Checklist"
 pillar: ethical-prompting
 level: intermediate
-archetype-fit: [translator, systems-thinker]
+archetype-fit: [planner, strategist]
 time-estimate: 25min
 tags: [exercise, pillar/ethical-prompting, level/intermediate, type/exercise]
 ---

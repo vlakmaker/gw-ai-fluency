@@ -2,7 +2,7 @@
 title: "The Reusable Prompt"
 pillar: workflow-automation
 level: basic
-archetype-fit: [integrator, systems-thinker]
+archetype-fit: [tinkerer, planner]
 time-estimate: 15min
 tags: [exercise, pillar/workflow-automation, level/basic, type/exercise]
 ---

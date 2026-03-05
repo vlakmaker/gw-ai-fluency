@@ -2,7 +2,7 @@
 title: "The Signal in the Noise"
 pillar: insight-synthesis
 level: basic
-archetype-fit: [systems-thinker, translator]
+archetype-fit: [strategist, planner]
 time-estimate: 15min
 tags: [exercise, pillar/insight-synthesis, level/basic, type/exercise]
 ---
