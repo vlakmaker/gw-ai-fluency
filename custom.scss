@@ -4,18 +4,24 @@
  * Custom styles for the AI Fluency Playbook
  * Aligned with the Generalist World brand (generalist.world)
  *
- * Brand colors:
- *   Primary purple:  #5c0098
- *   Light lavender:  #e0b1ff
- *   Pale lavender:   #f9efff
- *   Bright yellow:   #ffee32
- *   Near-black navy: #02061d
- *   White:           #ffffff
+ * Font: Work Sans throughout (matching GW site)
+ * Headers differentiated by weight (600-700) rather than a separate font
  */
+
+// ── Typography ──────────────────────────────────────────────────────
+
+// Heavier headers for visual hierarchy with a single font family
+h1 {
+  font-weight: 700;
+}
+
+h2,
+h3 {
+  font-weight: 600;
+}
 
 // ── General ─────────────────────────────────────────────────────────
 
-// Slightly rounded corners on code blocks and callouts
 pre,
 .callout {
   border-radius: 12px;
@@ -23,28 +29,29 @@ pre,
 
 // ── Links ───────────────────────────────────────────────────────────
 
-// Subtle underline on content links
 .center a {
   text-decoration-thickness: 1px;
   text-underline-offset: 3px;
 }
 
-// ── Buttons & interactive elements ──────────────────────────────────
+// ── Explorer ────────────────────────────────────────────────────────
 
-// Explorer folder titles — slightly bolder
 .folder-title {
   font-weight: 500;
 }
 
+.explorer ul {
+  margin: 0;
+  padding-left: 0.8rem;
+}
+
 // ── Tables ──────────────────────────────────────────────────────────
 
-// Cleaner table styling
 table {
   border-collapse: collapse;
   width: 100%;
 
   th {
-    font-family: var(--headerFont);
     font-weight: 600;
     text-align: left;
   }
@@ -63,12 +70,10 @@ table {
 
 // ── Callouts / blockquotes ──────────────────────────────────────────
 
-// Give blockquotes a subtle left-border accent
 blockquote {
   border-left: 3px solid var(--secondary);
   padding-left: 1rem;
   margin-left: 0;
-  color: var(--darkgray);
 }
 
 // ── Tag pills ───────────────────────────────────────────────────────
@@ -77,14 +82,6 @@ a.tag-link {
   border-radius: 15px;
   padding: 0.15rem 0.6rem;
   font-size: 0.85rem;
-}
-
-// ── Explorer ────────────────────────────────────────────────────────
-
-// Tighter spacing in explorer for cleaner nav
-.explorer ul {
-  margin: 0;
-  padding-left: 0.8rem;
 }
 
 // ── Search ──────────────────────────────────────────────────────────
