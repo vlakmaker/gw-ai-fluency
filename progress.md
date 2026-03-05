@@ -67,6 +67,19 @@ An Astro + Starlight static site for the Generalist World community that turns A
 - CI workflow updated: Astro build verification + CX32 SSH deploy + `workflow_dispatch` trigger
 - All tests pass: 15 exercises validated, 249 internal links verified
 
+### Phase 5: Styling & CI Debugging (Session 4)
+- **GW brand styling overhaul** (`src/styles/custom.css`):
+  - Purple header (`#5c0098`) with white text
+  - Proper light mode: white bg `#ffffff`, navy text `#02061d`, pale lavender accents `#f9efff`
+  - Proper dark mode: deep purple bg `#110e18`, light lavender text `#f8f5fc`
+  - Work Sans font loaded from Google Fonts
+  - Styled blockquotes, tables, inline code with accent-low backgrounds
+  - Active sidebar item highlighting
+- **Fixed inverted Starlight color tokens**: Discovered that Starlight's semantic color system (`--sl-color-white` = foreground, `--sl-color-black` = background) and gray scale (1-6) completely flip between light/dark modes. Initial attempt had inverted contrast. Corrected in commit `59eae56`
+- **GitHub Actions outage debugging**: Actions went down ~22:53 UTC on 2026-03-05. Commits from `06f5f7a` onward not picked up. Tried deleting and re-creating workflow to force re-registration. Added `workflow_dispatch` trigger for manual runs
+- **`project-info.md` rewritten**: Replaced outdated Quartz-era content with current Astro + Starlight state, including full technical stack, content architecture, brand styling notes, and phase plan
+- **`progress.md` created**: New session log document for cross-session continuity (committed in `8c5e64a`)
+
 ---
 
 ## Current State
@@ -120,6 +133,9 @@ e42365e Remove old playbook directory, houston.webp, .opencode
 e1e388f Add workflow_dispatch trigger to CI workflow
 2d8a859 Temporarily remove workflow for re-registration
 51e00d4 Re-add CI workflow for Astro build and CX32 deploy
+8c5e64a Add progress.md to track project state across sessions
+085fa7f Fix styling: branded purple header, proper light/dark mode tokens, GW brand colors
+59eae56 Fix inverted color tokens: align with Starlight's semantic color system
 ```
 
 ---
@@ -136,7 +152,7 @@ e1e388f Add workflow_dispatch trigger to CI workflow
    - `CX32_SSH_KEY` — SSH private key for `vlakmaker` user
    - The `vlakmaker` user needs docker group membership and ownership of `/opt/apps/gw-ai-fluency`
 
-4. **`project-info.md` is outdated**: Still references Quartz, old archetype names, and incomplete status markers. Should be updated or replaced with this progress file.
+4. **`project-info.md` updated**: Rewritten to reflect Astro + Starlight state. Uncommitted — pending next push.
 
 ---
 
@@ -149,6 +165,7 @@ These are things we learned the hard way — preserved for future reference.
 - **Quartz `custom.scss` must start with `@use "./base.scss";`** — omitting it strips all base styles (no longer relevant)
 - **Wiki-links in markdown tables** use `\|` escaping which produces `\/` artifacts — the converter script handles this
 - **Astro Starlight** requires `index.md` (not `_index.md` like Quartz/Hugo) for section index pages
+- **Starlight color tokens use semantic naming, NOT literal colors**: `--sl-color-white` = highest contrast foreground (headings/bold), `--sl-color-black` = page background. In light mode, "white" token renders dark and "black" token renders white. The gray scale (1-6) completely flips between modes. `:root` scope = dark mode defaults, `:root[data-theme='light']` = light mode overrides. Getting this wrong causes inverted contrast.
 
 ---
 

@@ -87,9 +87,9 @@ git clone <repo-url> gw-ai-fluency
 
 ## 4. Configure domain
 
-Edit `/opt/apps/gw-ai-fluency/docker-compose.yml` and replace `playbook.example.com` with your actual domain.
+Edit `/opt/apps/gw-ai-fluency/docker-compose.yml` and replace `playbook.example.com` with your actual domain in the Traefik labels.
 
-Also update `quartz.config.ts` — set `baseUrl` to your domain.
+The site URL is configured in `astro.config.mjs` under the `site` property.
 
 ## 5. Start the service
 
@@ -137,4 +137,4 @@ rm /tmp/deploy_key /tmp/deploy_key.pub
 Add these GitHub repository secrets:
 - `CX32_HOST` — Server IP or hostname
 - `CX32_SSH_KEY` — The private key from above
-- `CX32_USER` — SSH username (e.g., `root` or deploy user)
+- `CX32_USER` — SSH username (`vlakmaker` — must have docker group membership and ownership of `/opt/apps/gw-ai-fluency`)
