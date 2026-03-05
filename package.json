@@ -1,0 +1,13 @@
+{
+  "name": "gw-ai-fluency",
+  "version": "1.0.0",
+  "private": true,
+  "description": "AI Fluency Playbook — content validation and build tools",
+  "type": "module",
+  "scripts": {
+    "test": "node tests/validate-content.mjs && node tests/validate-links.mjs"
+  },
+  "devDependencies": {
+    "gray-matter": "^4.0.3"
+  }
+}
