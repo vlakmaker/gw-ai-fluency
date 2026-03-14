@@ -23,6 +23,15 @@ export default defineConfig({
 					],
 				},
 				{
+					label: 'Core Concepts',
+					items: [
+						{ slug: 'concepts' },
+						{ slug: 'concepts/how-ai-actually-works' },
+						{ slug: 'concepts/why-ai-gets-things-wrong' },
+						{ slug: 'concepts/prompt-engineering-basics' },
+					],
+				},
+				{
 					label: 'Pillars',
 					items: [
 						{ slug: 'pillars' },

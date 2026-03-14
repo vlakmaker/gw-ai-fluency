@@ -6,6 +6,7 @@
  * 2. Exercise template compliance — required sections present
  * 3. Pillar coverage — each pillar has at least one exercise per level
  * 4. No empty exercises — flags files that contain only placeholder HTML comments
+ * 5. Concept page frontmatter — required fields with valid values
  */
 
 import fs from "fs";
@@ -14,6 +15,7 @@ import matter from "gray-matter";
 
 const CONTENT_DIR = path.resolve("src/content/docs");
 const EXERCISES_DIR = path.join(CONTENT_DIR, "exercises");
+const CONCEPTS_DIR = path.join(CONTENT_DIR, "concepts");
 
 const VALID_PILLARS = [
   "agent-collaboration",
@@ -128,7 +130,53 @@ function checkForPlaceholderContent(file, content) {
   }
 }
 
-// ── 4. Pillar coverage ──────────────────────────────────────────────
+// ── 4. Concept page validation ──────────────────────────────────────
+
+const CONCEPT_REQUIRED_FRONTMATTER = ["type", "related-pillars", "last-updated", "tags"];
+
+function collectConceptFiles(dir) {
+  if (!fs.existsSync(dir)) return [];
+  const files = [];
+  for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
+    const full = path.join(dir, entry.name);
+    if (entry.isFile() && entry.name.endsWith(".md") && entry.name !== "index.md") {
+      files.push(full);
+    }
+  }
+  return files;
+}
+
+function validateConceptFrontmatter(file, data) {
+  const rel = relPath(file);
+
+  for (const field of CONCEPT_REQUIRED_FRONTMATTER) {
+    if (data[field] === undefined || data[field] === null || data[field] === "") {
+      errors.push(`${rel}: missing required concept frontmatter field "${field}"`);
+    }
+  }
+
+  if (data.type && data.type !== "concept") {
+    errors.push(`${rel}: invalid type "${data.type}" — expected "concept"`);
+  }
+
+  if (data["related-pillars"] && !Array.isArray(data["related-pillars"])) {
+    errors.push(`${rel}: "related-pillars" must be an array`);
+  }
+
+  if (data["related-pillars"] && Array.isArray(data["related-pillars"])) {
+    for (const p of data["related-pillars"]) {
+      if (p !== "all" && !VALID_PILLARS.includes(p)) {
+        errors.push(`${rel}: invalid related-pillar "${p}" — expected one of: all, ${VALID_PILLARS.join(", ")}`);
+      }
+    }
+  }
+
+  if (data.tags && !Array.isArray(data.tags)) {
+    errors.push(`${rel}: "tags" must be an array`);
+  }
+}
+
+// ── 5. Pillar coverage ──────────────────────────────────────────────
 
 function checkPillarCoverage(exerciseFiles) {
   const coverage = {};
@@ -178,6 +226,16 @@ function main() {
 
   // Check coverage
   checkPillarCoverage(exerciseFiles);
+
+  // Validate concept pages
+  const conceptFiles = collectConceptFiles(CONCEPTS_DIR);
+  console.log(`Found ${conceptFiles.length} concept files.\n`);
+
+  for (const file of conceptFiles) {
+    const raw = fs.readFileSync(file, "utf-8");
+    const { data } = matter(raw);
+    validateConceptFrontmatter(file, data);
+  }
 
   // Report
   if (warnings.length > 0) {

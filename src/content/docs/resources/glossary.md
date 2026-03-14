@@ -21,5 +21,6 @@ Key terms used throughout the playbook, in alphabetical order.
 | Pillar | One of five core skill areas that make up AI fluency: [Insight Synthesis](/pillars/insight-synthesis/), [Workflow Automation](/pillars/workflow-automation/), [Cross-Domain Reframing](/pillars/cross-domain-reframing/), [Agent Collaboration](/pillars/agent-collaboration/), and [Ethical Prompting & Judgment](/pillars/ethical-prompting/). |
 | Prompt Chain | A sequence of AI prompts where each step's output feeds into the next step's input. The simplest form of an AI workflow. |
 | Quality Gate | A checkpoint in an AI workflow where output is evaluated before proceeding to the next step. Prevents errors from propagating through a pipeline. |
+| Tokenization | The process by which AI models break text into smaller chunks called *tokens* before processing. Tokens can be whole words, parts of words, or punctuation. For example, "tokenization" might become "token" + "ization." Token counts determine input/output limits in AI tools. See [How AI Actually Works](/concepts/how-ai-actually-works/) for more context. |
 
 | Workflow Automation | The skill of turning repeatable tasks into systematic AI processes — from reusable prompt templates to multi-step pipelines with quality gates. One of the five [pillars of AI fluency](/pillars/workflow-automation/). |

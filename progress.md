@@ -51,7 +51,7 @@ An Astro + Starlight static site for the Generalist World community that turns A
 
 ### Phase 3: Astro Migration (Session 3)
 - Astro + Starlight project scaffolded with full sidebar navigation config
-- All 48 content files migrated from `playbook/` to `src/content/docs/`
+- All content files migrated from `playbook/` to `src/content/docs/`
 - 249 wiki-links converted to standard markdown links (converter script at `scripts/convert-wikilinks.mjs`)
 - Custom CSS at `src/styles/custom.css` with GW branding
 - Build produces 49 pages with Pagefind search index and sitemap in ~4.5 seconds
@@ -80,6 +80,20 @@ An Astro + Starlight static site for the Generalist World community that turns A
 - **`project-info.md` rewritten**: Replaced outdated Quartz-era content with current Astro + Starlight state, including full technical stack, content architecture, brand styling notes, and phase plan
 - **`progress.md` created**: New session log document for cross-session continuity (committed in `8c5e64a`)
 
+### Phase 6: Core Concepts & Codebase Improvements (Session 6)
+- **Added Core Concepts section**: 3 new concept pages moved from project root into `src/content/docs/concepts/`:
+  - `how-ai-actually-works.md` — no-jargon LLM explainer
+  - `why-ai-gets-things-wrong.md` — hallucinations and error patterns
+  - `prompt-engineering-basics.md` — core prompting techniques
+  - `index.md` — section landing page
+- **Added concepts to sidebar** in `astro.config.mjs` as "Core Concepts" group between "Start Here" and "Pillars"
+- **Fixed broken link**: `/concepts/tokenization/` pointed to non-existent page; added Tokenization entry to glossary and updated link
+- **Extended content schema** (`src/content.config.ts`): custom frontmatter fields for exercises (`pillar`, `level`, `archetype-fit`, `time-estimate`) and concepts (`type`, `related-pillars`, `last-updated`) now validated by Astro's build
+- **Expanded test coverage**: `tests/validate-content.mjs` now validates concept page frontmatter (type, related-pillars, last-updated, tags)
+- **Removed unused code**: deleted `scripts/convert-wikilinks.mjs` (one-time migration utility) and empty `scripts/` directory
+- **Cleaned up CSS**: removed unused `--gw-yellow` and `--gw-yellow-light` custom properties from `custom.css`
+- **All tests pass**: 15 exercises + 3 concept pages validated, 280 internal links verified, 53 pages build successfully
+
 ---
 
 ## Current State
@@ -95,12 +109,13 @@ gw-ai-fluency/
 ├── docker-compose.yml              # Traefik labels for playbook.informationgeek.org
 ├── nginx.conf                      # Static serving, gzip, IPv4+IPv6
 ├── src/
-│   ├── content.config.ts           # Starlight content collection
-│   ├── content/docs/               # All 48 content files (canonical)
+│   ├── content.config.ts           # Starlight content collection (with custom schema)
+│   ├── content/docs/               # All 52 content files (canonical)
 │   │   ├── index.md                # Landing page
 │   │   ├── getting-started.md
 │   │   ├── how-to-use.md
 │   │   ├── archetypes/             # 4 learning styles + index
+│   │   ├── concepts/               # 3 concept pages + index
 │   │   ├── exercises/              # 15 exercises in 5 subdirs + indexes
 │   │   ├── levels/                 # 3 levels + index
 │   │   ├── pathways/               # 4 pathways + index
@@ -108,7 +123,6 @@ gw-ai-fluency/
 │   │   └── resources/              # glossary, tools, further reading + index
 │   └── styles/custom.css           # GW brand colors, Work Sans font
 ├── public/favicon.svg
-├── scripts/convert-wikilinks.mjs   # Wiki-link to markdown converter utility
 ├── tests/
 │   ├── validate-content.mjs        # Exercise frontmatter + template validation
 │   └── validate-links.mjs          # Internal markdown link checker
@@ -178,7 +192,7 @@ These are things we learned the hard way — preserved for future reference.
 
 ### Short-term
 - [ ] Update `project-info.md` to reflect current state (or remove in favor of this file)
-- [ ] Update `docs/cx32-setup.md` — step 4 still references `quartz.config.ts`
+- [x] Update `docs/cx32-setup.md` — step 4 no longer references `quartz.config.ts`
 - [ ] Add a proper favicon (current one is a default SVG placeholder)
 - [ ] Review and improve landing page content and styling
 - [ ] Test responsive/mobile layout
