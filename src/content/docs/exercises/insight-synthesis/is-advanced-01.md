@@ -1,13 +1,12 @@
 ---
 title: "The Research Pipeline"
+description: "Build a complete research synthesis pipeline with evidence grading and contradiction analysis. 40 minutes."
 pillar: insight-synthesis
 level: advanced
 archetype-fit: [strategist, planner]
 time-estimate: 40min
 tags: [exercise, pillar/insight-synthesis, level/advanced, type/exercise]
 ---
-
-# The Research Pipeline
 
 > **One-liner:** Build a complete research synthesis pipeline — from question to evidence-graded conclusions — using structured AI queries and your own critical judgment.
 
@@ -84,11 +83,8 @@ This exercise combines the skills from [IS-Basic-01](/exercises/insight-synthesi
 
 - Did the evidence grading change which findings you trusted? Were you surprised by what was classified as "weak"?
 - How did the contradiction analysis change your initial view?
-- Was the 500-word synthesis harder or easier than expected? What was the hardest part?
-- What surprised you about the output?
-- What did you have to fix or override?
-- How would you explain what you just did to a colleague?
-- 💬 *Discuss: Try explaining your result to someone who hasn't used AI for this task. What questions do they ask?* (Social Learners)
+- Was the 500-word synthesis harder or easier than expected? What was the hardest part — compression, confidence, or acknowledging uncertainty?
+- 💬 *Teach this pipeline to a colleague and have them run it on a different question. Compare how you each handle the "what would change your mind" step — that reveals different attitudes toward uncertainty.* (Social Learners)
 
 ## ⬆️ Level up
 
@@ -98,4 +94,4 @@ You've reached the advanced level for Insight Synthesis. From here, consider:
 - Combining this with [AC-Advanced-01](/exercises/agent-collaboration/ac-advanced-01/) to delegate different research phases to different agent roles
 - Teaching this method to a colleague and seeing how they adapt it
 
-Back to [Insight Synthesis](/pillars/insight-synthesis/) | [🔴 Advanced Level](/levels/advanced/)
+Back to [Insight Synthesis](/pillars/insight-synthesis/)

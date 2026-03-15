@@ -1,9 +1,8 @@
 ---
 title: The Planner
+description: "The Planner archetype — structured, methodical learners who prefer to understand the plan before executing."
 tags: [archetype, archetype/planner]
 ---
-
-# The Planner
 
 ## How You Learn
 

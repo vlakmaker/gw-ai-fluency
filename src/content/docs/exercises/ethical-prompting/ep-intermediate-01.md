@@ -1,13 +1,12 @@
 ---
 title: "The Verification Checklist"
+description: "Build a personal AI verification checklist and stress-test it against real AI outputs. 25 minutes."
 pillar: ethical-prompting
 level: intermediate
 archetype-fit: [planner, strategist]
 time-estimate: 25min
 tags: [exercise, pillar/ethical-prompting, level/intermediate, type/exercise]
 ---
-
-# The Verification Checklist
 
 > **One-liner:** Build a personal AI verification system — a checklist you'll actually use — and stress-test it against real AI outputs to find its limits.
 
@@ -70,13 +69,11 @@ In [EP-Basic-01](/exercises/ethical-prompting/ep-basic-01/), you built a simple 
 
 - Which check caught the most problems? Which was least useful?
 - How did your verification experience change between the familiar topic and the unfamiliar one?
-- What surprised you about the output?
-- What did you have to fix or override?
-- How would you explain what you just did to a colleague?
-- 💬 *Discuss: Try explaining your result to someone who hasn't used AI for this task. What questions do they ask?* (Social Learners)
+- Is your checklist something you'd actually pull up before sending an AI-generated deliverable? What format makes it most likely you'll use it?
+- 💬 *Trade checklists with a colleague. Have them apply yours to an AI output from their work — their feedback will reveal blind spots specific to your domain.* (Social Learners)
 
 ## ⬆️ Level up
 
 Ready for more? Try [EP-Advanced-01](/exercises/ethical-prompting/ep-advanced-01/) — where you'll design an AI governance framework for a team or project.
 
-Back to [Ethical Prompting & Judgment](/pillars/ethical-prompting/) | [🟡 Intermediate Level](/levels/intermediate/)
+Back to [Ethical Prompting & Judgment](/pillars/ethical-prompting/)

@@ -1,13 +1,12 @@
 ---
 title: "The Handoff Protocol"
+description: "Split a problem across two separate AI sessions with different roles, then synthesize their outputs. 25 minutes."
 pillar: agent-collaboration
 level: intermediate
 archetype-fit: [tinkerer, social-learner]
 time-estimate: 25min
 tags: [exercise, pillar/agent-collaboration, level/intermediate, type/exercise]
 ---
-
-# The Handoff Protocol
 
 > **One-liner:** Split a problem across two separate AI sessions with different roles and contexts, then synthesize their outputs yourself — like managing a real team.
 
@@ -70,15 +69,13 @@ In [AC-Basic-01](/exercises/agent-collaboration/ac-basic-01/), you simulated mul
 
 ## Reflection
 
-- How did the outputs differ when each AI had a constrained role vs. when you asked one AI to do both?
-- What surprised you about the output?
-- What did you have to fix or override?
-- Did the synthesis step feel harder or easier than you expected? Why?
-- How would you explain what you just did to a colleague?
-- 💬 *Discuss: Try explaining your result to someone who hasn't used AI for this task. What questions do they ask?* (Social Learners)
+- How did the outputs differ when each AI had a constrained role vs. a single AI doing both? Was the split worth the extra effort?
+- What context got lost in the handoff between sessions? How would you design a better transfer summary?
+- Did the synthesis step feel harder or easier than you expected? What made it difficult?
+- 💬 *Run this exercise with two colleagues, each managing one AI session. Compare the experience of synthesizing someone else's AI output vs. your own — it highlights how much implicit context lives in your head.* (Social Learners)
 
 ## ⬆️ Level up
 
 Ready for more? Try [AC-Advanced-01](/exercises/agent-collaboration/ac-advanced-01/) — where you'll design a complete multi-agent workflow with defined roles, handoffs, and feedback loops.
 
-Back to [Agent Collaboration](/pillars/agent-collaboration/) | [🟡 Intermediate Level](/levels/intermediate/)
+Back to [Agent Collaboration](/pillars/agent-collaboration/)

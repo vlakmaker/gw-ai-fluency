@@ -1,9 +1,8 @@
 ---
 title: Glossary
+description: "Plain-English definitions of AI terms used throughout the playbook."
 tags: [resource]
 ---
-
-# Glossary
 
 Key terms used throughout the playbook, in alphabetical order.
 

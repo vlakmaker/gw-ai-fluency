@@ -1,13 +1,12 @@
 ---
 title: "The Reusable Prompt"
+description: "Turn a repeatable task into a reusable AI prompt template. Your first step toward automation. 15 minutes."
 pillar: workflow-automation
 level: basic
 archetype-fit: [tinkerer, planner]
 time-estimate: 15min
 tags: [exercise, pillar/workflow-automation, level/basic, type/exercise]
 ---
-
-# The Reusable Prompt
 
 > **One-liner:** Turn a task you do repeatedly into a reusable AI prompt template that works every time — your first step toward automation.
 
@@ -70,14 +69,13 @@ Most people use AI in one-off conversations that disappear. This exercise introd
 
 ## Reflection
 
-- What surprised you about the output?
 - What did you have to add to the template that wasn't obvious from the original prompt?
-- Did the template produce consistent quality, or did you need to tweak it? What was missing?
-- How would you explain what you just did to a colleague?
-- 💬 *Discuss: Try explaining your result to someone who hasn't used AI for this task. What questions do they ask?* (Social Learners)
+- Did the template produce consistent quality with different inputs, or did you need to tweak it? What was missing?
+- How much time will this template save you per week? Is it enough to justify the setup effort?
+- 💬 *Send your template to a colleague who does the same task. Can they use it without any explanation? Their confusion points reveal where the template needs more specificity.* (Social Learners)
 
 ## ⬆️ Level up
 
 Ready for more? Try [WA-Intermediate-01](/exercises/workflow-automation/wa-intermediate-01/) — where you'll chain multiple prompt templates into a multi-step workflow.
 
-Back to [Workflow Automation](/pillars/workflow-automation/) | [🟢 Basic Level](/levels/basic/)
+Back to [Workflow Automation](/pillars/workflow-automation/)

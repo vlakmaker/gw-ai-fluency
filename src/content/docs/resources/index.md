@@ -1,9 +1,8 @@
 ---
 title: Resources
+description: "Supporting resources for the AI Fluency Playbook — glossary, tools, and curated further reading."
 tags: [resource]
 ---
-
-# Resources
 
 Helpful references to support your AI fluency journey.
 

@@ -1,9 +1,8 @@
 ---
 title: Tools and Platforms
+description: "Recommended AI tools and platforms for generalists, with honest assessments of strengths and limitations."
 tags: [resource]
 ---
-
-# Tools and Platforms
 
 All exercises in this playbook work with any AI chat tool. You don't need a specific platform — use whatever you're comfortable with. This page lists options by category for reference.
 

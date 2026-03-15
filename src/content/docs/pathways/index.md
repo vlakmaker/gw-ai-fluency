@@ -1,9 +1,8 @@
 ---
 title: Pathways
+description: "Guided learning routes based on your AI Skills Quiz results. Each pathway targets specific strengths and gaps."
 tags: [pathway]
 ---
-
-# Pathways
 
 Pathways are guided routes through the playbook. Each one is designed for a specific profile — a combination of strengths and growth areas. Find the one that fits you best.
 

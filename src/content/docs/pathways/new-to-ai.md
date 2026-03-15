@@ -1,9 +1,8 @@
 ---
 title: "Pathway: Starting from Scratch"
+description: "A guided pathway for people new to AI — building foundational skills from the ground up."
 tags: [pathway]
 ---
-
-# Starting from Scratch
 
 ## Your Profile
 

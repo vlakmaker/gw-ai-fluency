@@ -4,8 +4,6 @@ description: A hands-on resource that helps generalists build practical AI skill
 tags: [index]
 ---
 
-# AI Fluency Playbook
-
 **A practical guide to building AI skills — designed for generalists, by generalists.**
 
 AI is changing how we work, but most resources assume you're a developer or data scientist. This playbook is different. It's built for people who work across domains, wear multiple hats, and want to use AI thoughtfully and effectively — without needing a technical background.
@@ -22,8 +20,7 @@ Whether you're just getting started or looking to level up, there's something he
 | Section | What You'll Find |
 |---------|-----------------|
 | [Pillars](/pillars/) | The five core skill areas of AI fluency |
-| [Exercises](/exercises/) | 15 hands-on challenges, from 15-minute basics to deep dives |
-| [Levels](/levels/) | Basic, Intermediate, and Advanced progression |
+| [Exercises](/exercises/) | 15 hands-on challenges across three levels, from 15-minute basics to deep dives |
 | [Archetypes](/archetypes/) | Discover your AI learning profile |
 | [Pathways](/pathways/) | Guided routes based on your strengths and gaps |
 | [Resources](/resources/) | Glossary, tools, and further reading |

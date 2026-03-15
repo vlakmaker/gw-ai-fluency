@@ -1,13 +1,12 @@
 ---
 title: "The Signal in the Noise"
+description: "Turn a messy AI brainstorm into structured, actionable insight. 15 minutes."
 pillar: insight-synthesis
 level: basic
 archetype-fit: [strategist, planner]
 time-estimate: 15min
 tags: [exercise, pillar/insight-synthesis, level/basic, type/exercise]
 ---
-
-# The Signal in the Noise
 
 > **One-liner:** Turn a messy AI brainstorm into a structured, actionable insight — learning to extract what matters and discard what doesn't.
 
@@ -61,14 +60,13 @@ AI is excellent at generating volume but mediocre at distinguishing signal from 
 
 ## Reflection
 
-- What surprised you about the output?
-- Did the AI's ranking match your instinct? Where did you disagree?
+- Did the AI's ranking match your instinct? Where did you disagree, and what does that tell you about the AI's priorities vs. yours?
 - Was the "gap" the AI identified actually a meaningful blind spot, or was it filler?
-- How would you explain what you just did to a colleague?
-- 💬 *Discuss: Try explaining your result to someone who hasn't used AI for this task. What questions do they ask?* (Social Learners)
+- Would you use this brainstorm-then-synthesize pattern again? For what kinds of problems does it work best?
+- 💬 *Run the same brainstorm prompt with a colleague present. Compare which ideas you each gravitate toward — the difference reveals your respective assumptions.* (Social Learners)
 
 ## ⬆️ Level up
 
 Ready for more? Try [IS-Intermediate-01](/exercises/insight-synthesis/is-intermediate-01/) — where you'll synthesize across multiple AI sessions to build a more complete picture.
 
-Back to [Insight Synthesis](/pillars/insight-synthesis/) | [🟢 Basic Level](/levels/basic/)
+Back to [Insight Synthesis](/pillars/insight-synthesis/)

@@ -7,8 +7,6 @@ last-updated: 2026-03
 tags: [concept, hallucinations, fundamentals, ethics]
 ---
 
-# Why AI Gets Things Wrong
-
 > **Plain English:** AI produces confident-sounding text that is sometimes completely wrong. This isn't a bug — it's a fundamental feature of how these systems work. Knowing why it happens is the single most important thing you can learn about working with AI.
 
 ## What's actually happening
@@ -74,8 +72,4 @@ Understanding hallucinations isn't just about catching mistakes. It fundamentall
 ## Where to go next
 
 - [The Fact-Check Habit](/exercises/ethical-prompting/ep-basic-01/) — practice catching AI mistakes in 15 minutes
-- [The Verification Checklist](/exercises/ethical-prompting/ep-intermediate-01/) — build a systematic approach to validating AI output
-- [How AI Actually Works](/concepts/how-ai-actually-works/) — the foundation this page builds on
 - [Prompt Engineering Basics](/concepts/prompt-engineering-basics/) — techniques that reduce (but never eliminate) hallucinations
-
-*For a deeper look at machine learning limitations from a technical perspective, see [XueCodex: ML Limitations](https://xuecodex.tech/docs/topics/machine-learning/context/machine-learning-limitations).*

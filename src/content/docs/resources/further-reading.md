@@ -1,9 +1,8 @@
 ---
 title: Further Reading
+description: "Curated reading list for deepening your AI fluency — all human-vetted, no AI slop."
 tags: [resource]
 ---
-
-# Further Reading
 
 Curated resources organized by pillar. Focused on practical, generalist-accessible content rather than technical papers.
 

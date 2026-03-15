@@ -1,13 +1,12 @@
 ---
 title: "The Cross-Domain Prompt Library"
+description: "Build a documented library of prompt patterns borrowed from 3+ different fields. 40 minutes."
 pillar: cross-domain-reframing
 level: advanced
 archetype-fit: [tinkerer, social-learner]
 time-estimate: 40min
 tags: [exercise, pillar/cross-domain-reframing, level/advanced, type/exercise]
 ---
-
-# The Cross-Domain Prompt Library
 
 > **One-liner:** Build a documented library of prompt patterns borrowed from 3+ different fields, with tested adaptations and transfer notes for your own domain.
 
@@ -84,11 +83,8 @@ In [CDR-Basic-01](/exercises/cross-domain-reframing/cdr-basic-01/), you borrowed
 
 - Which of the 3 domains produced the most transferable techniques? Why?
 - Did any technique work *better* in your domain than in its original domain? What does that tell you?
-- What pattern do you notice in what transfers well vs. what doesn't?
-- What surprised you about the output?
-- What did you have to fix or override?
-- How would you explain what you just did to a colleague?
-- 💬 *Discuss: Try explaining your result to someone who hasn't used AI for this task. What questions do they ask?* (Social Learners)
+- What pattern do you notice in what transfers well vs. what doesn't? Can you articulate a rule of thumb?
+- 💬 *Share your prompt library with colleagues and have them test the techniques on their own tasks. The techniques that work across multiple people's contexts are genuinely domain-agnostic — those are your keepers.* (Social Learners)
 
 ## ⬆️ Level up
 
@@ -98,4 +94,4 @@ You've reached the advanced level for Cross-Domain Reframing. From here, conside
 - Sharing the library with colleagues and collecting their transfer notes
 - Combining this with [WA-Advanced-01](/exercises/workflow-automation/wa-advanced-01/) to build cross-domain techniques into automated workflows
 
-Back to [Cross-Domain Reframing](/pillars/cross-domain-reframing/) | [🔴 Advanced Level](/levels/advanced/)
+Back to [Cross-Domain Reframing](/pillars/cross-domain-reframing/)

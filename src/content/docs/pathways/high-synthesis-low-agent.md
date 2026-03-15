@@ -1,9 +1,8 @@
 ---
 title: "Pathway: High Synthesis, Low Agent Collaboration"
+description: "A pathway for people strong at extracting AI insight but new to multi-agent collaboration."
 tags: [pathway]
 ---
-
-# High Synthesis, Low Agent Collaboration
 
 ## Your Profile
 

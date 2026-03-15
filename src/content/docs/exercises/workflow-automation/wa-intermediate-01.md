@@ -1,13 +1,12 @@
 ---
 title: "The Prompt Chain"
+description: "Build a multi-step AI workflow where each step's output feeds into the next. 25 minutes."
 pillar: workflow-automation
 level: intermediate
 archetype-fit: [tinkerer, planner]
 time-estimate: 25min
 tags: [exercise, pillar/workflow-automation, level/intermediate, type/exercise]
 ---
-
-# The Prompt Chain
 
 > **One-liner:** Build a multi-step AI workflow where each step's output feeds into the next — turning a complex task into a repeatable pipeline.
 
@@ -80,14 +79,12 @@ In [WA-Basic-01](/exercises/workflow-automation/wa-basic-01/), you built a singl
 ## Reflection
 
 - Where did context get lost between steps? What information did a later step need that an earlier step didn't pass along?
-- Did the 3-step chain produce better output than a single "do everything" prompt? Where specifically?
-- What surprised you about the output?
-- What did you have to fix or override?
-- How would you explain what you just did to a colleague?
-- 💬 *Discuss: Try explaining your result to someone who hasn't used AI for this task. What questions do they ask?* (Social Learners)
+- Did the 3-step chain produce better output than a single "do everything" prompt? Where specifically was the improvement?
+- Which step in the chain was the weakest link? How would you redesign it?
+- 💬 *Have a colleague run your documented chain on a different task of the same type. Their experience reveals whether your chain is truly reusable or depends on your implicit knowledge.* (Social Learners)
 
 ## ⬆️ Level up
 
 Ready for more? Try [WA-Advanced-01](/exercises/workflow-automation/wa-advanced-01/) — where you'll design and document a complete AI-automated workflow for a business process.
 
-Back to [Workflow Automation](/pillars/workflow-automation/) | [🟡 Intermediate Level](/levels/intermediate/)
+Back to [Workflow Automation](/pillars/workflow-automation/)

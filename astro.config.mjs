@@ -22,15 +22,18 @@ export default defineConfig({
 						{ slug: 'how-to-use' },
 					],
 				},
-				{
-					label: 'Core Concepts',
-					items: [
-						{ slug: 'concepts' },
-						{ slug: 'concepts/how-ai-actually-works' },
-						{ slug: 'concepts/why-ai-gets-things-wrong' },
-						{ slug: 'concepts/prompt-engineering-basics' },
-					],
-				},
+			{
+				label: 'Core Concepts',
+				items: [
+					{ slug: 'concepts' },
+					{ slug: 'concepts/what-we-mean-by-ai-fluency' },
+					{ slug: 'concepts/how-ai-actually-works' },
+					{ slug: 'concepts/tokenization-and-context-windows' },
+					{ slug: 'concepts/why-ai-gets-things-wrong' },
+					{ slug: 'concepts/prompt-engineering-basics' },
+					{ slug: 'concepts/agents-vs-assistants' },
+				],
+			},
 				{
 					label: 'Pillars',
 					items: [
@@ -88,15 +91,7 @@ export default defineConfig({
 						},
 					],
 				},
-				{
-					label: 'Levels',
-					items: [
-						{ slug: 'levels' },
-						{ slug: 'levels/basic' },
-						{ slug: 'levels/intermediate' },
-						{ slug: 'levels/advanced' },
-					],
-				},
+
 				{
 					label: 'Archetypes',
 					items: [

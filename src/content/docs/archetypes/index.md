@@ -1,9 +1,8 @@
 ---
-title: "Archetypes"
+title: "Archetypes: Your Learning Style"
+description: "Discover your AI learning style. Archetypes describe how you naturally prefer to learn and help you get into exercises faster."
 tags: [archetype]
 ---
-
-# Archetypes: Your Learning Style
 
 Archetypes describe how you naturally prefer to learn. They're based on patterns from the [AI Skills Quiz](https://aiskillsquiz.com) and reflect your instinctive approach to picking up new skills — not what you're good at, but how you like to start.
 

@@ -1,13 +1,12 @@
 ---
 title: "The Framework Transplant"
+description: "Systematically transplant a problem-solving framework from another domain to solve your challenge. 25 minutes."
 pillar: cross-domain-reframing
 level: intermediate
 archetype-fit: [tinkerer, social-learner]
 time-estimate: 25min
 tags: [exercise, pillar/cross-domain-reframing, level/intermediate, type/exercise]
 ---
-
-# The Framework Transplant
 
 > **One-liner:** Take a complete problem-solving framework from another domain and systematically adapt it to solve a challenge in your own work.
 
@@ -76,13 +75,11 @@ In [CDR-Basic-01](/exercises/cross-domain-reframing/cdr-basic-01/), you borrowed
 
 - Which parts of the framework transferred most easily? What does that tell you about the underlying structure of your problem?
 - Where did the transplant break down? Was the breakdown due to domain differences, or did it reveal an assumption you hadn't questioned?
-- What surprised you about the output?
-- What did you have to fix or override?
-- How would you explain what you just did to a colleague?
-- 💬 *Discuss: Try explaining your result to someone who hasn't used AI for this task. What questions do they ask?* (Social Learners)
+- Did the stress test change your action plan significantly, or just refine the edges?
+- 💬 *Explain the transplanted framework to someone in the original field. Their reaction ("that's not how we use it" or "interesting adaptation") tells you whether you captured the core principle or just the surface.* (Social Learners)
 
 ## ⬆️ Level up
 
 Ready for more? Try [CDR-Advanced-01](/exercises/cross-domain-reframing/cdr-advanced-01/) — where you'll build a cross-domain prompt library with documented transfer patterns.
 
-Back to [Cross-Domain Reframing](/pillars/cross-domain-reframing/) | [🟡 Intermediate Level](/levels/intermediate/)
+Back to [Cross-Domain Reframing](/pillars/cross-domain-reframing/)

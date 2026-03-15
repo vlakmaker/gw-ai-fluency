@@ -1,9 +1,8 @@
 ---
 title: The Tinkerer
+description: "The Tinkerer archetype — hands-on learners who learn best by doing, experimenting, and iterating."
 tags: [archetype, archetype/tinkerer]
 ---
-
-# The Tinkerer
 
 ## How You Learn
 

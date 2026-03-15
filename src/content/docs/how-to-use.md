@@ -4,19 +4,11 @@ description: "Three ways to navigate the AI Fluency Playbook, plus tips for gett
 tags: [guide]
 ---
 
-# How to Use This Playbook
-
 There's no single "right" way to use this playbook. It's designed to meet you where you are. Here are three entry paths — pick the one that resonates.
 
 ## Path 1: "I want to try something right now"
 
-Perfect. Pick one of these beginner-friendly exercises and spend 15 minutes with it:
-
-- [The Fact-Check Habit](/exercises/ethical-prompting/ep-basic-01/) — Learn to catch AI mistakes (a skill you'll use every day)
-- [The Signal in the Noise](/exercises/insight-synthesis/is-basic-01/) — Turn messy AI output into clear insight
-- [The Reusable Prompt](/exercises/workflow-automation/wa-basic-01/) — Build your first reusable AI template
-
-No prep needed. Just you and an AI tool of your choice.
+Perfect. Head to the [Exercises](/exercises/) page, pick any basic exercise (15 minutes each), and start. No prep needed — just you and an AI tool of your choice.
 
 ## Path 2: "I took the AI Skills Quiz"
 
@@ -31,15 +23,14 @@ If you've taken the quiz at [aiskillsquiz.com](https://aiskillsquiz.com), you al
 Start with the framework:
 
 1. Read [The Five Pillars](/pillars/) to understand what AI fluency is made of
-2. Browse the [Levels](/levels/) to see how skills progress from Basic to Advanced
+2. Browse the [Exercises](/exercises/) to see the full range from Basic to Advanced
 3. Then pick any exercise that interests you
 
 ## How the Playbook Is Organized
 
 ```
 Pillars (5 skill areas)
-  -> Levels (Basic, Intermediate, Advanced)
-    -> Exercises (hands-on practice)
+  -> Exercises (Basic, Intermediate, Advanced)
 
 Archetypes (your learning style)
   -> Pathways (guided routes based on your strengths and gaps)

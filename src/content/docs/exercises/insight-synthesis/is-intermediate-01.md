@@ -1,13 +1,12 @@
 ---
 title: "The Multi-Source Brief"
+description: "Synthesize outputs from three separate AI perspectives into a single coherent analysis. 25 minutes."
 pillar: insight-synthesis
 level: intermediate
 archetype-fit: [strategist, planner]
 time-estimate: 25min
 tags: [exercise, pillar/insight-synthesis, level/intermediate, type/exercise]
 ---
-
-# The Multi-Source Brief
 
 > **One-liner:** Synthesize outputs from three separate AI queries into a single coherent analysis — building the skill of triangulating AI perspectives.
 
@@ -62,14 +61,12 @@ In [IS-Basic-01](/exercises/insight-synthesis/is-basic-01/), you extracted insig
 ## Reflection
 
 - Which perspective (Optimist, Skeptic, Analyst) was most useful? Which felt like filler?
-- Did writing the synthesis yourself change your view compared to where you started?
-- What surprised you about the output?
-- What did you have to fix or override?
-- How would you explain what you just did to a colleague?
-- 💬 *Discuss: Try explaining your result to someone who hasn't used AI for this task. What questions do they ask?* (Social Learners)
+- Did writing the synthesis yourself change your view compared to where you started? At what point in the writing did it shift?
+- Would you share this brief with a decision-maker? If not, what's missing?
+- 💬 *Share your 250-word brief with someone who knows the topic. Ask them what they'd challenge — their pushback will tell you where your synthesis was weakest.* (Social Learners)
 
 ## ⬆️ Level up
 
 Ready for more? Try [IS-Advanced-01](/exercises/insight-synthesis/is-advanced-01/) — where you'll build a full research synthesis pipeline with structured evidence evaluation.
 
-Back to [Insight Synthesis](/pillars/insight-synthesis/) | [🟡 Intermediate Level](/levels/intermediate/)
+Back to [Insight Synthesis](/pillars/insight-synthesis/)

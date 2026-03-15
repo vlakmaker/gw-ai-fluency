@@ -1,9 +1,8 @@
 ---
 title: "Pathway: Strong Communicator, Building Technical Confidence"
+description: "A pathway for strong communicators building technical AI confidence alongside their existing strengths."
 tags: [pathway]
 ---
-
-# Strong Communicator, Building Technical Confidence
 
 ## Your Profile
 

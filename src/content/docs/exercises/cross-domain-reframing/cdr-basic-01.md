@@ -1,13 +1,12 @@
 ---
 title: "The Stolen Technique"
+description: "Take an AI technique from a completely different field and apply it to your own work. 15 minutes."
 pillar: cross-domain-reframing
 level: basic
 archetype-fit: [tinkerer, social-learner]
 time-estimate: 15min
 tags: [exercise, pillar/cross-domain-reframing, level/basic, type/exercise]
 ---
-
-# The Stolen Technique
 
 > **One-liner:** Take an AI technique from a completely different field and apply it to your own work — discovering that the best prompting ideas are often borrowed.
 
@@ -61,14 +60,13 @@ Most people prompt AI using patterns from their own field — but the most power
 
 ## Reflection
 
-- What surprised you about the output?
-- Did the borrowed technique produce a noticeably different result than your usual approach?
-- What made the technique transferable? Was it the structure, the question type, or something else?
-- How would you explain what you just did to a colleague?
-- 💬 *Discuss: Try explaining your result to someone who hasn't used AI for this task. What questions do they ask?* (Social Learners)
+- Did the borrowed technique produce a noticeably different result than your usual approach? Better, worse, or just different?
+- What made the technique transferable? Was it the structure, the question type, or the underlying problem it solves?
+- Which other field would you explore next for AI techniques? What made you choose it?
+- 💬 *Ask a colleague from a different department how they use AI. You'll likely discover a technique you've never considered — that's cross-domain reframing in action.* (Social Learners)
 
 ## ⬆️ Level up
 
 Ready for more? Try [CDR-Intermediate-01](/exercises/cross-domain-reframing/cdr-intermediate-01/) — where you'll systematically adapt an entire prompting strategy from an unfamiliar domain.
 
-Back to [Cross-Domain Reframing](/pillars/cross-domain-reframing/) | [🟢 Basic Level](/levels/basic/)
+Back to [Cross-Domain Reframing](/pillars/cross-domain-reframing/)

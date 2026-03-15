@@ -1,13 +1,12 @@
 ---
 title: "The Workflow Blueprint"
+description: "Design, document, and test a complete AI-automated workflow for a real business process. 40 minutes."
 pillar: workflow-automation
 level: advanced
 archetype-fit: [tinkerer, planner]
 time-estimate: 40min
 tags: [exercise, pillar/workflow-automation, level/advanced, type/exercise]
 ---
-
-# The Workflow Blueprint
 
 > **One-liner:** Design, document, and test a complete AI-automated workflow for a real business process — from trigger to output, with error handling and quality gates.
 
@@ -100,13 +99,10 @@ In [WA-Intermediate-01](/exercises/workflow-automation/wa-intermediate-01/), you
 
 ## Reflection
 
-- How much time did the automated workflow save compared to the manual process?
+- How much time did the automated workflow save compared to the manual process? Is the saving worth the design effort?
 - Which quality gates caught real problems? Which were unnecessary overhead?
-- Where did AI fail and require human override? Was that predictable from the design phase?
-- What surprised you about the output?
-- What did you have to fix or override?
-- How would you explain what you just did to a colleague?
-- 💬 *Discuss: Try explaining your result to someone who hasn't used AI for this task. What questions do they ask?* (Social Learners)
+- Where did AI fail and require human override? Was that predictable from the design phase, or did it only emerge during testing?
+- 💬 *Walk a colleague through your workflow blueprint and ask them to find the step most likely to fail. Fresh eyes spot single points of failure you've normalized.* (Social Learners)
 
 ## ⬆️ Level up
 
@@ -116,4 +112,4 @@ You've reached the advanced level for Workflow Automation. From here, consider:
 - Combining this with [AC-Advanced-01](/exercises/agent-collaboration/ac-advanced-01/) to add multi-agent architecture to your workflow steps
 - Measuring workflow performance over 4 weeks and iterating based on failure data
 
-Back to [Workflow Automation](/pillars/workflow-automation/) | [🔴 Advanced Level](/levels/advanced/)
+Back to [Workflow Automation](/pillars/workflow-automation/)

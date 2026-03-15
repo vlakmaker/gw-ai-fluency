@@ -1,9 +1,8 @@
 ---
 title: The Strategist
+description: "The Strategist archetype — big-picture thinkers who need to understand the why before engaging with the how."
 tags: [archetype, archetype/strategist]
 ---
-
-# The Strategist
 
 ## How You Learn
 

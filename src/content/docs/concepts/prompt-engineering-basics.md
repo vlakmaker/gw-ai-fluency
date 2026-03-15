@@ -7,8 +7,6 @@ last-updated: 2026-03
 tags: [concept, prompt-engineering, fundamentals]
 ---
 
-# Prompt Engineering Basics
-
 > **Plain English:** Prompt engineering is the skill of giving AI clear, structured instructions that get useful results. It's not about memorizing "magic prompts" — it's about clear thinking. If you can write a good brief for a colleague, you can write a good prompt.
 
 ## Why this matters
@@ -154,7 +152,3 @@ Most people are somewhere between "use defaults" and "better prompts." Moving up
 
 - [The Reusable Prompt](/exercises/workflow-automation/wa-basic-01/) — build a prompt you'll actually use again
 - [Your First AI Team Meeting](/exercises/agent-collaboration/ac-basic-01/) — practice role-based prompting
-- [How AI Actually Works](/concepts/how-ai-actually-works/) — why these techniques work at a deeper level
-- [Why AI Gets Things Wrong](/concepts/why-ai-gets-things-wrong/) — what prompting can't fix
-
-*For a deeper technical dive into prompt engineering techniques including advanced patterns, see [XueCodex: Prompt Engineering](https://xuecodex.tech/docs/topics/prompt-engineering/what-is-prompt-engineering).*

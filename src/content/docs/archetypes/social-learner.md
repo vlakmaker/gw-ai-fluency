@@ -1,9 +1,8 @@
 ---
 title: The Social Learner
+description: "The Social Learner archetype — collaborative learners who build understanding through discussion and shared experience."
 tags: [archetype, archetype/social-learner]
 ---
-
-# The Social Learner
 
 ## How You Learn
 

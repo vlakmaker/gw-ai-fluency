@@ -7,15 +7,13 @@ last-updated: 2026-03
 tags: [concept, fundamentals]
 ---
 
-# How AI Actually Works
-
 > **Plain English:** When you type a message to an AI, it doesn't "think" or "know" things. It predicts the most likely next words based on patterns it learned from enormous amounts of text. Understanding this one idea changes how you use it.
 
 ## The simplest explanation that's still true
 
 Here's what happens when you send a message to ChatGPT, Claude, Gemini, or any other AI chat tool:
 
-1. **Your message gets broken into tokens.** The AI doesn't read words the way you do. It splits your text into small chunks called [tokens](/resources/glossary/) — sometimes whole words, sometimes pieces of words. The word "tokenization" might become "token" + "ization." This is why AI tools have limits on how much text you can send — they're counting tokens, not words.
+1. **Your message gets broken into tokens.** The AI doesn't read words the way you do. It splits your text into small chunks called [tokens](/resources/glossary/) — sometimes whole words, sometimes pieces of words. The word "tokenization" might become "token" + "ization." This is why AI tools have limits on how much text you can send — they're counting tokens, not words. (For a deeper look at this, see [Tokenization & Context Windows](/concepts/tokenization-and-context-windows/).)
 
 2. **Each token gets converted into numbers.** The AI represents every token as a list of numbers (called an embedding) that captures its meaning and relationships. Words with similar meanings end up with similar numbers — "happy" and "joyful" are close together, "happy" and "wrench" are far apart.
 
@@ -64,7 +62,4 @@ Understanding that AI predicts rather than knows changes your approach in practi
 ## Where to go next
 
 - [Why AI Gets Things Wrong](/concepts/why-ai-gets-things-wrong/) — what hallucinations are and why they happen
-- [Prompt Engineering Basics](/concepts/prompt-engineering-basics/) — how to communicate effectively with AI
 - [The Fact-Check Habit](/exercises/ethical-prompting/ep-basic-01/) — your first exercise in working with AI critically
-
-*Want the full technical deep-dive? [XueCodex](https://xuecodex.tech/docs) covers transformers, attention mechanisms, embeddings, and training in detail.*

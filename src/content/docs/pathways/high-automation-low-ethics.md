@@ -1,9 +1,8 @@
 ---
 title: "Pathway: High Automation, Low Ethics"
+description: "A pathway for automation-skilled users who need to build stronger verification and ethical judgment habits."
 tags: [pathway]
 ---
-
-# High Automation, Low Ethics
 
 ## Your Profile
 

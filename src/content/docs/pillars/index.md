@@ -1,9 +1,8 @@
 ---
-title: "The Five Pillars"
+title: "The Five Pillars of AI Fluency"
+description: "The five core skill areas of AI fluency — from ethical judgment to agent collaboration — with community data and guidance on where to start."
 tags: [pillar]
 ---
-
-# The Five Pillars of AI Fluency
 
 AI fluency isn't one skill — it's a combination of five. We call them **pillars** because each one supports the others. You don't need to master all five at once, but understanding them helps you see where you're strong and where you can grow.
 

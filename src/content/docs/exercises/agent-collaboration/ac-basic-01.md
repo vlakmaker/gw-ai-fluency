@@ -1,13 +1,12 @@
 ---
 title: "Your First AI Team Meeting"
+description: "Run a multi-perspective AI session with two expert viewpoints on the same problem. 15 minutes."
 pillar: agent-collaboration
 level: basic
 archetype-fit: [tinkerer, social-learner]
 time-estimate: 15min
 tags: [exercise, pillar/agent-collaboration, level/basic, type/exercise]
 ---
-
-# Your First AI Team Meeting
 
 > **One-liner:** Run a multi-perspective AI session where one prompt gets you two expert viewpoints on the same problem — no extra tools required.
 
@@ -65,14 +64,13 @@ This exercise builds the foundational skill behind all multi-agent AI workflows:
 
 ## Reflection
 
-- What surprised you about the output?
-- Did one perspective feel stronger than the other? Why?
+- Did one perspective feel stronger than the other? Why — was it genuinely better argued, or did it just align with what you already believed?
 - What did the facilitator synthesis surface that you hadn't considered?
-- How would you explain what you just did to a colleague?
-- 💬 *Discuss: Try explaining your result to someone who hasn't used AI for this task. What questions do they ask?* (Social Learners)
+- Would you use this dual-role technique for real decisions going forward? What types of decisions benefit most?
+- 💬 *Run this exercise with a colleague in the room. Have them choose different expert roles than you did for the same problem — the role selection itself reveals different priorities.* (Social Learners)
 
 ## ⬆️ Level up
 
 Ready for more? Try [AC-Intermediate-01](/exercises/agent-collaboration/ac-intermediate-01/) — where you'll split these roles across separate AI sessions and learn to manage handoffs between them.
 
-Back to [Agent Collaboration](/pillars/agent-collaboration/) | [🟢 Basic Level](/levels/basic/)
+Back to [Agent Collaboration](/pillars/agent-collaboration/)

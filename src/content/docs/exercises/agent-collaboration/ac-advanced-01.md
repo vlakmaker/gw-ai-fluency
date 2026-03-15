@@ -1,13 +1,12 @@
 ---
 title: "Design Your Agent Workflow"
+description: "Architect a complete multi-agent workflow with defined roles, handoffs, and feedback loops. 40 minutes."
 pillar: agent-collaboration
 level: advanced
 archetype-fit: [tinkerer, social-learner]
 time-estimate: 40min
 tags: [exercise, pillar/agent-collaboration, level/advanced, type/exercise]
 ---
-
-# Design Your Agent Workflow
 
 > **One-liner:** Architect a complete multi-agent workflow for a real project — defining roles, inputs, outputs, handoffs, and a feedback loop — then test it.
 
@@ -72,13 +71,10 @@ This is what agent collaboration looks like at professional scale — **architec
 
 ## Reflection
 
-- Which agent in your workflow had the biggest impact on output quality? Why?
+- Which agent in your workflow had the biggest impact on output quality? Would the workflow still work without the weakest agent?
 - What information was lost between handoffs? Would you design the handoffs differently next time?
-- Where did the feedback loop help, and where did it just add noise?
-- What surprised you about the output?
-- What did you have to fix or override?
-- How would you explain what you just did to a colleague?
-- 💬 *Discuss: Try explaining your result to someone who hasn't used AI for this task. What questions do they ask?* (Social Learners)
+- Where did the feedback loop help, and where did it just add noise? Is there a point of diminishing returns?
+- 💬 *Walk a colleague through your agent architecture diagram before showing them the output. Ask them to predict where the pipeline would break — their predictions vs. reality reveals whether your architecture is intuitive or over-designed.* (Social Learners)
 
 ## ⬆️ Level up
 
@@ -88,4 +84,4 @@ You've reached the advanced level for Agent Collaboration. From here, consider:
 - Combining this skill with [WA-Advanced-01](/exercises/workflow-automation/wa-advanced-01/) to build end-to-end automated workflows
 - Revisiting this exercise with a more complex project to push the architecture further
 
-Back to [Agent Collaboration](/pillars/agent-collaboration/) | [🔴 Advanced Level](/levels/advanced/)
+Back to [Agent Collaboration](/pillars/agent-collaboration/)

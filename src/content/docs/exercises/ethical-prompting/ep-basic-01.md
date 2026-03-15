@@ -1,13 +1,12 @@
 ---
 title: "The Fact-Check Habit"
+description: "Catch an AI making a confident mistake and build a simple verification process you'll use every time. 15 minutes."
 pillar: ethical-prompting
 level: basic
 archetype-fit: [planner, strategist]
 time-estimate: 15min
 tags: [exercise, pillar/ethical-prompting, level/basic, type/exercise]
 ---
-
-# The Fact-Check Habit
 
 > **One-liner:** Catch an AI making a confident mistake — and build a simple verification process you'll use every time.
 
@@ -67,15 +66,13 @@ The community's Ethical Prompting score is 75% — the highest of all five pilla
 
 ## Reflection
 
-- What surprised you about what the AI got wrong?
+- What type of error did the AI make — a fabricated fact, a wrong date, or a subtle logical leap? Does the category matter for how you'd catch it?
 - Did the AI's self-assessment match what you found when you verified manually? Was it too confident, too cautious, or well-calibrated?
-- What surprised you about the output?
-- What did you have to fix or override?
-- How would you explain what you just did to a colleague?
-- 💬 *Discuss: Try explaining your result to someone who hasn't used AI for this task. What questions do they ask?* (Social Learners)
+- Will you actually use your verification prompt going forward? What would make it stick as a habit vs. something you forget about?
+- 💬 *Share a specific AI error you caught with a colleague. Ask them how they currently verify AI output — you may discover they don't.* (Social Learners)
 
 ## ⬆️ Level up
 
 Ready for more? Try [EP-Intermediate-01](/exercises/ethical-prompting/ep-intermediate-01/) — where you'll build a comprehensive verification checklist and stress-test it against real AI outputs.
 
-Back to [Ethical Prompting & Judgment](/pillars/ethical-prompting/) | [🟢 Basic Level](/levels/basic/)
+Back to [Ethical Prompting & Judgment](/pillars/ethical-prompting/)

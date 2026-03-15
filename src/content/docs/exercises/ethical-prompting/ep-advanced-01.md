@@ -1,13 +1,12 @@
 ---
 title: "The AI Governance Playbook"
+description: "Design a practical AI governance framework for a team or project. 40 minutes."
 pillar: ethical-prompting
 level: advanced
 archetype-fit: [planner, strategist]
 time-estimate: 40min
 tags: [exercise, pillar/ethical-prompting, level/advanced, type/exercise]
 ---
-
-# The AI Governance Playbook
 
 > **One-liner:** Design a practical AI governance framework for a team or project — covering when to use AI, how to verify outputs, and what requires human judgment.
 
@@ -87,10 +86,7 @@ Individual verification habits (from [EP-Intermediate-01](/exercises/ethical-pro
 - Which risk classification was hardest to assign? What does that ambiguity tell you?
 - Would your team actually follow these guidelines? What would make them ignore it?
 - Did the red-teaming step reveal fundamental gaps, or just edge cases?
-- What surprised you about the output?
-- What did you have to fix or override?
-- How would you explain what you just did to a colleague?
-- 💬 *Discuss: Try explaining your result to someone who hasn't used AI for this task. What questions do they ask?* (Social Learners)
+- 💬 *Present your framework to a colleague and ask: "Would you follow this?" Their honest reaction is more useful than any AI review.* (Social Learners)
 
 ## ⬆️ Level up
 
@@ -100,4 +96,4 @@ You've reached the advanced level for Ethical Prompting & Judgment. From here, c
 - Combining this with [AC-Advanced-01](/exercises/agent-collaboration/ac-advanced-01/) to add governance to multi-agent workflows
 - Building a case study of how the framework changed AI usage behavior in your team
 
-Back to [Ethical Prompting & Judgment](/pillars/ethical-prompting/) | [🔴 Advanced Level](/levels/advanced/)
+Back to [Ethical Prompting & Judgment](/pillars/ethical-prompting/)
