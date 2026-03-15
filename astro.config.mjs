@@ -22,22 +22,30 @@ export default defineConfig({
 						{ slug: 'how-to-use' },
 					],
 				},
-			{
-				label: 'Core Concepts',
-				items: [
-					{ slug: 'concepts' },
-					{ slug: 'concepts/what-we-mean-by-ai-fluency' },
-					{ slug: 'concepts/how-ai-actually-works' },
-					{ slug: 'concepts/tokenization-and-context-windows' },
-					{ slug: 'concepts/why-ai-gets-things-wrong' },
-					{ slug: 'concepts/prompt-engineering-basics' },
-					{ slug: 'concepts/agents-vs-assistants' },
-				],
-			},
+				{
+					label: 'Exercises',
+					items: [
+						{ slug: 'exercises' },
+						{ slug: 'exercises/ethical-prompting/ep-basic-01' },
+						{ slug: 'exercises/ethical-prompting/ep-intermediate-01' },
+						{ slug: 'exercises/ethical-prompting/ep-advanced-01' },
+						{ slug: 'exercises/insight-synthesis/is-basic-01' },
+						{ slug: 'exercises/insight-synthesis/is-intermediate-01' },
+						{ slug: 'exercises/insight-synthesis/is-advanced-01' },
+						{ slug: 'exercises/workflow-automation/wa-basic-01' },
+						{ slug: 'exercises/workflow-automation/wa-intermediate-01' },
+						{ slug: 'exercises/workflow-automation/wa-advanced-01' },
+						{ slug: 'exercises/cross-domain-reframing/cdr-basic-01' },
+						{ slug: 'exercises/cross-domain-reframing/cdr-intermediate-01' },
+						{ slug: 'exercises/cross-domain-reframing/cdr-advanced-01' },
+						{ slug: 'exercises/agent-collaboration/ac-basic-01' },
+						{ slug: 'exercises/agent-collaboration/ac-intermediate-01' },
+						{ slug: 'exercises/agent-collaboration/ac-advanced-01' },
+					],
+				},
 				{
 					label: 'Pillars',
 					items: [
-						{ slug: 'pillars' },
 						{ slug: 'pillars/ethical-prompting' },
 						{ slug: 'pillars/insight-synthesis' },
 						{ slug: 'pillars/workflow-automation' },
@@ -46,52 +54,16 @@ export default defineConfig({
 					],
 				},
 				{
-					label: 'Exercises',
+					label: 'Core Concepts',
 					items: [
-						{ slug: 'exercises' },
-						{
-							label: 'Ethical Prompting',
-							items: [
-								{ slug: 'exercises/ethical-prompting/ep-basic-01' },
-								{ slug: 'exercises/ethical-prompting/ep-intermediate-01' },
-								{ slug: 'exercises/ethical-prompting/ep-advanced-01' },
-							],
-						},
-						{
-							label: 'Insight Synthesis',
-							items: [
-								{ slug: 'exercises/insight-synthesis/is-basic-01' },
-								{ slug: 'exercises/insight-synthesis/is-intermediate-01' },
-								{ slug: 'exercises/insight-synthesis/is-advanced-01' },
-							],
-						},
-						{
-							label: 'Workflow Automation',
-							items: [
-								{ slug: 'exercises/workflow-automation/wa-basic-01' },
-								{ slug: 'exercises/workflow-automation/wa-intermediate-01' },
-								{ slug: 'exercises/workflow-automation/wa-advanced-01' },
-							],
-						},
-						{
-							label: 'Cross-Domain Reframing',
-							items: [
-								{ slug: 'exercises/cross-domain-reframing/cdr-basic-01' },
-								{ slug: 'exercises/cross-domain-reframing/cdr-intermediate-01' },
-								{ slug: 'exercises/cross-domain-reframing/cdr-advanced-01' },
-							],
-						},
-						{
-							label: 'Agent Collaboration',
-							items: [
-								{ slug: 'exercises/agent-collaboration/ac-basic-01' },
-								{ slug: 'exercises/agent-collaboration/ac-intermediate-01' },
-								{ slug: 'exercises/agent-collaboration/ac-advanced-01' },
-							],
-						},
+						{ slug: 'concepts/what-we-mean-by-ai-fluency' },
+						{ slug: 'concepts/how-ai-actually-works' },
+						{ slug: 'concepts/tokenization-and-context-windows' },
+						{ slug: 'concepts/why-ai-gets-things-wrong' },
+						{ slug: 'concepts/prompt-engineering-basics' },
+						{ slug: 'concepts/agents-vs-assistants' },
 					],
 				},
-
 				{
 					label: 'Archetypes',
 					items: [
