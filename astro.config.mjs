@@ -23,6 +23,42 @@ export default defineConfig({
 					],
 				},
 				{
+					label: 'Core Concepts',
+					items: [
+						{ slug: 'concepts/what-we-mean-by-ai-fluency' },
+						{ slug: 'concepts/how-ai-actually-works' },
+						{ slug: 'concepts/tokenization-and-context-windows' },
+						{ slug: 'concepts/why-ai-gets-things-wrong' },
+						{ slug: 'concepts/prompt-engineering-basics' },
+						{ slug: 'concepts/agents-vs-assistants' },
+					],
+				},
+				{
+					label: 'Archetypes & Pathways',
+					items: [
+						{ slug: 'archetypes' },
+						{ slug: 'archetypes/tinkerer' },
+						{ slug: 'archetypes/planner' },
+						{ slug: 'archetypes/strategist' },
+						{ slug: 'archetypes/social-learner' },
+						{ slug: 'pathways' },
+						{ slug: 'pathways/new-to-ai' },
+						{ slug: 'pathways/strong-communicator-low-technical' },
+						{ slug: 'pathways/high-synthesis-low-agent' },
+						{ slug: 'pathways/high-automation-low-ethics' },
+					],
+				},
+				{
+					label: 'Pillars',
+					items: [
+						{ slug: 'pillars/ethical-prompting' },
+						{ slug: 'pillars/insight-synthesis' },
+						{ slug: 'pillars/workflow-automation' },
+						{ slug: 'pillars/cross-domain-reframing' },
+						{ slug: 'pillars/agent-collaboration' },
+					],
+				},
+				{
 					label: 'Exercises',
 					items: [
 						{ slug: 'exercises' },
@@ -41,47 +77,6 @@ export default defineConfig({
 						{ slug: 'exercises/agent-collaboration/ac-basic-01' },
 						{ slug: 'exercises/agent-collaboration/ac-intermediate-01' },
 						{ slug: 'exercises/agent-collaboration/ac-advanced-01' },
-					],
-				},
-				{
-					label: 'Pillars',
-					items: [
-						{ slug: 'pillars/ethical-prompting' },
-						{ slug: 'pillars/insight-synthesis' },
-						{ slug: 'pillars/workflow-automation' },
-						{ slug: 'pillars/cross-domain-reframing' },
-						{ slug: 'pillars/agent-collaboration' },
-					],
-				},
-				{
-					label: 'Core Concepts',
-					items: [
-						{ slug: 'concepts/what-we-mean-by-ai-fluency' },
-						{ slug: 'concepts/how-ai-actually-works' },
-						{ slug: 'concepts/tokenization-and-context-windows' },
-						{ slug: 'concepts/why-ai-gets-things-wrong' },
-						{ slug: 'concepts/prompt-engineering-basics' },
-						{ slug: 'concepts/agents-vs-assistants' },
-					],
-				},
-				{
-					label: 'Archetypes',
-					items: [
-						{ slug: 'archetypes' },
-						{ slug: 'archetypes/tinkerer' },
-						{ slug: 'archetypes/planner' },
-						{ slug: 'archetypes/strategist' },
-						{ slug: 'archetypes/social-learner' },
-					],
-				},
-				{
-					label: 'Pathways',
-					items: [
-						{ slug: 'pathways' },
-						{ slug: 'pathways/new-to-ai' },
-						{ slug: 'pathways/strong-communicator-low-technical' },
-						{ slug: 'pathways/high-synthesis-low-agent' },
-						{ slug: 'pathways/high-automation-low-ethics' },
 					],
 				},
 				{
