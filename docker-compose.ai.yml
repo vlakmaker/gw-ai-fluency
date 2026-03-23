@@ -13,7 +13,7 @@ services:
     container_name: gw-ai-fluency-ai
     restart: unless-stopped
     ports:
-      - "127.0.0.1:8081:80"
+      - "8081:80"
     networks:
       - traefik
 
