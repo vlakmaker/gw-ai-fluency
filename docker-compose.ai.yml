@@ -1,0 +1,22 @@
+# Second instance: serves under /ai/ on generalist.world
+# Usage: docker compose -f docker-compose.ai.yml up -d --build
+#
+# This builds the site with base: '/ai/' and exposes it on port 8081.
+# The generalist.world nginx reverse proxy should forward /ai/ traffic here.
+services:
+  playbook-ai:
+    build:
+      context: .
+      args:
+        BASE_PATH: /ai/
+        SITE_URL: https://generalist.world
+    container_name: gw-ai-fluency-ai
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:8081:80"
+    networks:
+      - traefik
+
+networks:
+  traefik:
+    external: true

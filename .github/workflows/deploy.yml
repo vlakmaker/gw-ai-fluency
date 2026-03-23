@@ -33,7 +33,7 @@ jobs:
     runs-on: ubuntu-latest
     if: github.ref == 'refs/heads/master' && github.event_name == 'push'
     steps:
-      - name: Deploy via SSH
+      - name: Deploy both instances via SSH
         uses: appleboy/ssh-action@v1
         with:
           host: ${{ secrets.CX32_HOST }}
@@ -42,7 +42,12 @@ jobs:
           script: |
             cd /opt/apps/gw-ai-fluency
             git pull origin master
+
+            # Instance 1: playbook.informationgeek.org (base: /)
             docker compose up -d --build
+
+            # Instance 2: generalist.world/ai/ (base: /ai/)
+            docker compose -f docker-compose.ai.yml up -d --build
 
       - name: Health check
         uses: appleboy/ssh-action@v1
@@ -52,4 +57,6 @@ jobs:
           key: ${{ secrets.CX32_SSH_KEY }}
           script: |
             sleep 10
+            # Check both containers are running
             docker compose -f /opt/apps/gw-ai-fluency/docker-compose.yml ps --format json | grep -q '"running"'
+            docker compose -f /opt/apps/gw-ai-fluency/docker-compose.ai.yml ps --format json | grep -q '"running"'

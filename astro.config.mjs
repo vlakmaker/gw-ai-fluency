@@ -2,8 +2,15 @@
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
 
+// Support deploying under a subpath (e.g. /ai/) via BASE_PATH env var.
+// Default: '/' (root) for playbook.informationgeek.org
+// Set BASE_PATH=/ai/ for the generalist.world/ai/ instance.
+const basePath = process.env.BASE_PATH || '/';
+const siteUrl = process.env.SITE_URL || 'https://playbook.informationgeek.org';
+
 export default defineConfig({
-	site: 'https://playbook.informationgeek.org',
+	site: siteUrl,
+	base: basePath,
 	integrations: [
 		starlight({
 			title: 'AI Fluency Playbook',
