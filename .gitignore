@@ -14,6 +14,12 @@ node_modules/
 .obsidian/plugins/*/data.json
 .trash/
 
+# Fonts (licensed)
+*.woff
+*.woff2
+*.otf
+*.ttf
+
 # OS
 .DS_Store
 Thumbs.db
