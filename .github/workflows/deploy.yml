@@ -33,7 +33,7 @@ jobs:
     runs-on: ubuntu-latest
     if: github.ref == 'refs/heads/master' && github.event_name == 'push'
     steps:
-      - name: Deploy both instances via SSH
+      - name: Deploy via SSH
         uses: appleboy/ssh-action@v1
         with:
           host: ${{ secrets.CX32_HOST }}
@@ -43,15 +43,9 @@ jobs:
             cd /opt/apps/gw-ai-fluency
             git pull origin master
 
-            # Tear down old containers (clears stale network refs)
+            # Build and deploy single container (Caddy handles both domains)
             docker compose down --remove-orphans || true
-            docker compose -f docker-compose.ai.yml down --remove-orphans || true
-
-            # Instance 1: playbook.informationgeek.org → localhost:8080
             docker compose up -d --build
-
-            # Instance 2: playbook.aiskillsquiz.com → localhost:8081
-            docker compose -f docker-compose.ai.yml up -d --build
 
       - name: Health check
         uses: appleboy/ssh-action@v1
@@ -61,6 +55,4 @@ jobs:
           key: ${{ secrets.CX32_SSH_KEY }}
           script: |
             sleep 10
-            # Check both containers are running
             docker compose -f /opt/apps/gw-ai-fluency/docker-compose.yml ps --format json | grep -q '"running"'
-            docker compose -f /opt/apps/gw-ai-fluency/docker-compose.ai.yml ps --format json | grep -q '"running"'
