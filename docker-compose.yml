@@ -1,9 +1,15 @@
-# Instance 1: playbook.informationgeek.org
-# Caddy reverse-proxies to localhost:8080
+# Playbook: playbook.informationgeek.org + playbook.aiskillsquiz.com
+# Caddy reverse-proxies to this container by name on the shared caddy network
 services:
   playbook:
     build: .
     container_name: gw-ai-fluency-playbook
     restart: unless-stopped
+    networks:
+      - caddy
     ports:
       - "8080:80"
+
+networks:
+  caddy:
+    external: true
