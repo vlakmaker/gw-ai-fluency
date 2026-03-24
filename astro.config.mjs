@@ -31,13 +31,18 @@ export default defineConfig({
 					],
 				},
 				{
-					label: 'Core Concepts',
-					items: [
+			label: 'Core Concepts',
+				items: [
 						{ slug: 'concepts/what-we-mean-by-ai-fluency' },
 						{ slug: 'concepts/how-ai-actually-works' },
 						{ slug: 'concepts/tokenization-and-context-windows' },
 						{ slug: 'concepts/why-ai-gets-things-wrong' },
+						{ slug: 'concepts/ai-ethics-and-bias' },
+						{ slug: 'concepts/data-privacy-and-security' },
 						{ slug: 'concepts/prompt-engineering-basics' },
+						{ slug: 'concepts/multimodal-ai' },
+						{ slug: 'concepts/rag-and-knowledge-grounding' },
+						{ slug: 'concepts/choosing-the-right-ai-tool' },
 						{ slug: 'concepts/agents-vs-assistants' },
 					],
 				},
