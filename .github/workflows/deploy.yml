@@ -43,6 +43,10 @@ jobs:
             cd /opt/apps/gw-ai-fluency
             git pull origin master
 
+            # Tear down old containers (clears stale network refs)
+            docker compose down --remove-orphans || true
+            docker compose -f docker-compose.ai.yml down --remove-orphans || true
+
             # Instance 1: playbook.informationgeek.org → localhost:8080
             docker compose up -d --build
 
