@@ -15,6 +15,7 @@ export default defineConfig({
 		starlight({
 			title: 'AI Fluency Playbook',
 			description: 'A hands-on resource that helps generalists build practical AI skills through exercises, frameworks, and personalized learning paths.',
+			favicon: '/favicon.png',
 			social: [
 				{ icon: 'github', label: 'GitHub', href: 'https://github.com/vlakmaker/gw-ai-fluency' },
 			],

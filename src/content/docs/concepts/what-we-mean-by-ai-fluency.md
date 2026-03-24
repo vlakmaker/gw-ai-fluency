@@ -116,4 +116,4 @@ Take the [AI Skills Quiz](https://aiskillsquiz.com) for a personalized recommend
 
 ---
 
-*This playbook is part of [Generalist World](https://generalistworld.com). It's open, evolving, and built on the belief that AI fluency is for everyone — not just engineers.*
+*This playbook is part of [Generalist World](https://generalist.world). It's open, evolving, and built on the belief that AI fluency is for everyone — not just engineers.*

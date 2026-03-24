@@ -39,4 +39,4 @@ Just want to try something? These three exercises are great first picks:
 
 ---
 
-*This playbook is part of the [Generalist World](https://generalistworld.com) community. It's open, evolving, and built on the belief that AI fluency is a skill anyone can develop.*
+*This playbook is part of the [Generalist World](https://generalist.world) community. It's open, evolving, and built on the belief that AI fluency is a skill anyone can develop.*
