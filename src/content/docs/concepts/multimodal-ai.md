@@ -24,7 +24,7 @@ Current models can handle multiple types of input and output — called modaliti
 | Video | Emerging (frame analysis) | Emerging |
 | Code | Yes (read, debug, explain) | Yes (write, run, test) |
 
-Not every model supports every modality. But the major tools — Claude, GPT-4o, Gemini — can all handle text, images, and documents in the same conversation. This is the default now, not a special feature.
+Not every model supports every modality. But the major tools — Claude, GPT-5, Gemini — can all handle text, images, and documents in the same conversation. This is the default now, not a special feature.
 
 ## Why this matters for generalists
 

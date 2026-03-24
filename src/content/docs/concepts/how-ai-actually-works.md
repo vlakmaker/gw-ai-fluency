@@ -23,7 +23,7 @@ That's it. No understanding. No reasoning in the human sense. Pattern matching a
 
 ## Why "trained on text" matters
 
-Modern AI models like GPT-4, Claude, and Gemini were trained on enormous amounts of text — books, websites, code, conversations, research papers. During training, the model was repeatedly shown text with a word removed and asked to predict what goes there. Billions of times. Across billions of examples.
+Modern AI models like GPT-5, Claude, and Gemini were trained on enormous amounts of text — books, websites, code, conversations, research papers. During training, the model was repeatedly shown text with a word removed and asked to predict what goes there. Billions of times. Across billions of examples.
 
 This is why AI can write in any style, answer questions about almost any topic, and generate code in dozens of languages. It's seen patterns in all of those domains.
 

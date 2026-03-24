@@ -13,7 +13,7 @@ tags: [concept, open-source, models, fundamentals]
 
 **Closed models** are owned and operated by a company. You access them through the company's app or API. You don't see the model's internals, you can't modify how it works, and your data passes through their servers.
 
-Examples: GPT-4o (OpenAI), Claude (Anthropic), Gemini (Google).
+Examples: GPT-5 (OpenAI), Claude (Anthropic), Gemini (Google).
 
 **Open models** are publicly released — anyone can download the model weights, run them on their own hardware, modify them, and build on top of them. You don't need to send data anywhere.
 
@@ -39,7 +39,7 @@ Open models are free to download. The cost is in the hardware to run them. For i
 
 ### Quality trade-offs
 
-Closed models from major providers are generally the most capable — they're trained with the largest budgets, the most data, and the most human feedback. For complex reasoning, nuanced writing, and broad general knowledge, GPT-4o, Claude, and Gemini remain ahead.
+Closed models from major providers are generally the most capable — they're trained with the largest budgets, the most data, and the most human feedback. For complex reasoning, nuanced writing, and broad general knowledge, GPT-5, Claude, and Gemini remain ahead.
 
 But the gap has narrowed significantly. Models like Llama 3, Mistral Large, and DeepSeek perform well for many practical tasks. For straightforward writing, summarisation, data extraction, and code generation, open models are often good enough — and sometimes indistinguishable from closed alternatives.
 

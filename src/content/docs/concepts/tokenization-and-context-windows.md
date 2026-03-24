@@ -32,8 +32,8 @@ Current context window sizes (as of early 2026):
 | Model | Context window | Roughly equivalent to |
 |---|---|---|
 | Claude (Anthropic) | 200K tokens | ~150,000 words — a full novel |
-| GPT-4o (OpenAI) | 128K tokens | ~96,000 words |
-| Gemini 1.5 Pro (Google) | 1M+ tokens | ~750,000 words — multiple books |
+| GPT-5 (OpenAI) | 1M tokens | ~750,000 words — multiple books |
+| Gemini 2.5 Pro (Google) | 1M+ tokens | ~750,000 words — multiple books |
 
 These numbers sound enormous, but they fill up faster than you'd think. A long conversation with back-and-forth responses, a few uploaded documents, and a detailed system prompt can eat through 200K tokens in a working session.
 
