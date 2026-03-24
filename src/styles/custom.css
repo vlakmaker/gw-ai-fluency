@@ -120,7 +120,15 @@ header.header kbd {
 /* ── Sidebar ──────────────────────────────────────────────────────── */
 
 .sidebar-pane {
+	font-family: var(--sl-font);
 	font-size: 0.9rem;
+}
+
+/* Sidebar group headings (section labels) */
+nav.sidebar .top-level > li > details > summary,
+nav.sidebar .top-level > li > a {
+	font-family: var(--sl-font-heading);
+	font-weight: 700;
 }
 
 /* Active sidebar link */

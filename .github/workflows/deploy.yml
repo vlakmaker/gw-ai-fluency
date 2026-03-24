@@ -43,10 +43,10 @@ jobs:
             cd /opt/apps/gw-ai-fluency
             git pull origin master
 
-            # Instance 1: playbook.informationgeek.org (base: /)
+            # Instance 1: playbook.informationgeek.org → localhost:8080
             docker compose up -d --build
 
-            # Instance 2: generalist.world/ai/ (base: /ai/)
+            # Instance 2: playbook.aiskillsquiz.com → localhost:8081
             docker compose -f docker-compose.ai.yml up -d --build
 
       - name: Health check
