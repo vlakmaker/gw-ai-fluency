@@ -43,6 +43,7 @@ export default defineConfig({
 						{ slug: 'concepts/multimodal-ai' },
 						{ slug: 'concepts/rag-and-knowledge-grounding' },
 						{ slug: 'concepts/choosing-the-right-ai-tool' },
+						{ slug: 'concepts/open-vs-closed-models' },
 						{ slug: 'concepts/agents-vs-assistants' },
 					],
 				},

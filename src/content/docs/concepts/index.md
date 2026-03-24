@@ -18,6 +18,7 @@ Before diving into exercises and pillars, it helps to understand a few foundatio
 - [Multimodal AI](/concepts/multimodal-ai/) — How AI works with images, documents, audio, and code — not just text
 - [RAG & Knowledge Grounding](/concepts/rag-and-knowledge-grounding/) — How AI uses your documents and live data to give better answers
 - [Choosing the Right AI Tool](/concepts/choosing-the-right-ai-tool/) — A framework for deciding which AI tool fits your task
+- [Open vs. Closed Models](/concepts/open-vs-closed-models/) — The difference between open-source and proprietary AI models, and why it matters
 - [Agents vs. Assistants](/concepts/agents-vs-assistants/) — The spectrum from simple chatbot to autonomous agent, and how to choose the right level
 
 These pages are referenced throughout the playbook's exercises and pillars. You don't need to read them all before starting — but they're here when you want to understand the *why* behind the techniques.
