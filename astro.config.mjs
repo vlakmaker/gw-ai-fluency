@@ -16,6 +16,9 @@ export default defineConfig({
 			title: 'AI Fluency Playbook',
 			description: 'A hands-on resource that helps generalists build practical AI skills through exercises, frameworks, and personalized learning paths.',
 			favicon: '/favicon.png',
+			components: {
+				Header: './src/components/Header.astro',
+			},
 			social: [
 				{ icon: 'github', label: 'GitHub', href: 'https://github.com/vlakmaker/gw-ai-fluency' },
 			],
@@ -93,16 +96,23 @@ export default defineConfig({
 						{ slug: 'exercises/agent-collaboration/ac-advanced-01' },
 					],
 				},
-				{
-					label: 'Resources',
-					items: [
-						{ slug: 'resources' },
-						{ slug: 'resources/glossary' },
-						{ slug: 'resources/tools-and-platforms' },
-						{ slug: 'resources/further-reading' },
-					],
-				},
-			],
+			{
+				label: 'Resources',
+				items: [
+					{ slug: 'resources' },
+					{ slug: 'resources/glossary' },
+					{ slug: 'resources/tools-and-platforms' },
+					{ slug: 'resources/further-reading' },
+				],
+			},
+			{
+				label: 'About',
+				items: [
+					{ slug: 'about' },
+					{ slug: 'changelog' },
+				],
+			},
+		],
 		}),
 	],
 });

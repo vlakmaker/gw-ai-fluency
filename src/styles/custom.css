@@ -105,6 +105,17 @@ header.header .social-icons a:hover {
 	color: #ffffff;
 }
 
+/* Quiz CTA button — override the lavender link color */
+header.header a.quiz-button {
+	background-color: #ffee32;
+	color: #3a0060;
+}
+
+header.header a.quiz-button:hover {
+	background-color: #ffffff;
+	color: #5c0098;
+}
+
 header.header kbd {
 	border-color: rgba(255, 255, 255, 0.3);
 	color: rgba(255, 255, 255, 0.8);
